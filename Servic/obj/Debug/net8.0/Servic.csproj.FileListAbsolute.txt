@@ -1,0 +1,11 @@
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\Servic\bin\Debug\net8.0\Servic.deps.json
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\Servic\bin\Debug\net8.0\Servic.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\Servic\bin\Debug\net8.0\Servic.pdb
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\Servic\obj\Debug\net8.0\Servic.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\Servic\obj\Debug\net8.0\Servic.AssemblyInfoInputs.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\Servic\obj\Debug\net8.0\Servic.AssemblyInfo.cs
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\Servic\obj\Debug\net8.0\Servic.csproj.CoreCompileInputs.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\Servic\obj\Debug\net8.0\Servic.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\Servic\obj\Debug\net8.0\refint\Servic.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\Servic\obj\Debug\net8.0\Servic.pdb
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\Servic\obj\Debug\net8.0\ref\Servic.dll

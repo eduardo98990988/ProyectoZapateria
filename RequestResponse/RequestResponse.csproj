@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="T_Area\" />
+    <Folder Include="T_Cliente\" />
+    <Folder Include="T_ComprobanteProveedor\" />
+    <Folder Include="T_Credito\" />
+    <Folder Include="T_DetalleCredito\" />
+    <Folder Include="T_DetalleEnvio\" />
+    <Folder Include="T_DetalleOrden\" />
+    <Folder Include="T_DetalleProduccion\" />
+    <Folder Include="T_IngresoProducto\" />
+    <Folder Include="T_Material\" />
+    <Folder Include="T_Modelo\" />
+    <Folder Include="T_Orden\" />
+    <Folder Include="T_Producto\" />
+    <Folder Include="T_Proveedor\" />
+    <Folder Include="T_SalidaMaterial\" />
+    <Folder Include="T_Transporte\" />
+  </ItemGroup>
+
+</Project>

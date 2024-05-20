@@ -1,0 +1,17 @@
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilityAutoMapper\bin\Debug\net8.0\UtilityAutoMapper.deps.json
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilityAutoMapper\bin\Debug\net8.0\UtilityAutoMapper.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilityAutoMapper\bin\Debug\net8.0\UtilityAutoMapper.pdb
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilityAutoMapper\obj\Debug\net8.0\UtilityAutoMapper.csproj.AssemblyReference.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilityAutoMapper\obj\Debug\net8.0\UtilityAutoMapper.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilityAutoMapper\obj\Debug\net8.0\UtilityAutoMapper.AssemblyInfoInputs.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilityAutoMapper\obj\Debug\net8.0\UtilityAutoMapper.AssemblyInfo.cs
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilityAutoMapper\obj\Debug\net8.0\UtilityAutoMapper.csproj.CoreCompileInputs.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilityAutoMapper\obj\Debug\net8.0\UtilityAutoMapper.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilityAutoMapper\obj\Debug\net8.0\refint\UtilityAutoMapper.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilityAutoMapper\obj\Debug\net8.0\UtilityAutoMapper.pdb
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilityAutoMapper\obj\Debug\net8.0\ref\UtilityAutoMapper.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilityAutoMapper\bin\Debug\net8.0\DBModelZapateria.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilityAutoMapper\bin\Debug\net8.0\DBModelZapateria.pdb
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilityAutoMapper\obj\Debug\net8.0\UtilityA.F0D4EC8D.Up2Date
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilityAutoMapper\bin\Debug\net8.0\RequestRespons.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilityAutoMapper\bin\Debug\net8.0\RequestRespons.pdb

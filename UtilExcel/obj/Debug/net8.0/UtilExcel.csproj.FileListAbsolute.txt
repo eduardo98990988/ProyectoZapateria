@@ -1,0 +1,12 @@
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilExcel\bin\Debug\net8.0\UtilExcel.deps.json
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilExcel\bin\Debug\net8.0\UtilExcel.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilExcel\bin\Debug\net8.0\UtilExcel.pdb
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilExcel\obj\Debug\net8.0\UtilExcel.csproj.AssemblyReference.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilExcel\obj\Debug\net8.0\UtilExcel.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilExcel\obj\Debug\net8.0\UtilExcel.AssemblyInfoInputs.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilExcel\obj\Debug\net8.0\UtilExcel.AssemblyInfo.cs
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilExcel\obj\Debug\net8.0\UtilExcel.csproj.CoreCompileInputs.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilExcel\obj\Debug\net8.0\UtilExcel.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilExcel\obj\Debug\net8.0\refint\UtilExcel.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilExcel\obj\Debug\net8.0\UtilExcel.pdb
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilExcel\obj\Debug\net8.0\ref\UtilExcel.dll
