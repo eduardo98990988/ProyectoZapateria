@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O4fey9975J3zLVjlpRXTYspztzGQws3fJfRtnWYZjx1yDN8TzRiE+0G9jJJk33iYVrODUHzztK2F3dPKIYhFhQ==",
+  "dgSpecHash": "2nD1S/b3PttuTxOgSrd+RiIthcmx/GphNYC3swV4qHMBUR7ObYNg3qJhwuSuGY5qXrfZReu7D9A+CetT259bYA==",
   "success": true,
-  "projectFilePath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\BackendZapateria\\Repositori\\Repositori.csproj",
+  "projectFilePath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\Repositori\\Repositori.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

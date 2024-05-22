@@ -4923,11 +4923,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\BackendZapateria\\BackendZapateria\\BackendZapateria.csproj",
+      "projectUniqueName": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\BackendZapateria\\BackendZapateria.csproj",
       "projectName": "BackendZapateria",
-      "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\BackendZapateria\\BackendZapateria\\BackendZapateria.csproj",
+      "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\BackendZapateria\\BackendZapateria.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\BackendZapateria\\BackendZapateria\\obj\\",
+      "outputPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\BackendZapateria\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4944,17 +4944,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\BackendZapateria\\Repositori\\Repositori.csproj": {
-              "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\BackendZapateria\\Repositori\\Repositori.csproj"
+            "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\Repositori\\Repositori.csproj": {
+              "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\Repositori\\Repositori.csproj"
             },
-            "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\BackendZapateria\\Service\\Bussniess.csproj": {
-              "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\BackendZapateria\\Service\\Bussniess.csproj"
+            "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\Service\\Bussniess.csproj": {
+              "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\Service\\Bussniess.csproj"
             },
-            "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\BackendZapateria\\UtilityAutoMapper\\UtilityAutoMapper.csproj": {
-              "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\BackendZapateria\\UtilityAutoMapper\\UtilityAutoMapper.csproj"
+            "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilityAutoMapper\\UtilityAutoMapper.csproj": {
+              "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilityAutoMapper\\UtilityAutoMapper.csproj"
             },
-            "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\BackendZapateria\\UtilitySecuriry\\UtilitySecuriry.csproj": {
-              "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\BackendZapateria\\UtilitySecuriry\\UtilitySecuriry.csproj"
+            "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilitySecuriry\\UtilitySecuriry.csproj": {
+              "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilitySecuriry\\UtilitySecuriry.csproj"
             }
           }
         }

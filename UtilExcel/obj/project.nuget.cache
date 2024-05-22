@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+LRzxr0GIMkVEYAFkp0Qxnpnx3aowgY0p/JEgilT+YoAsnUih2lnENmhFvwi9nCngqc8QWKpFOjI7EhZr9oFmg==",
+  "dgSpecHash": "H6PHmkm3IwTjMl7ZlEERTx9LCb2no4P/B/l6lMaQaKaByUkKltYAnNM7nHpZS62sgBTD0A2+7AfWPj9l2o5S/Q==",
   "success": true,
-  "projectFilePath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\BackendZapateria\\UtilExcel\\UtilExcel.csproj",
+  "projectFilePath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilExcel\\UtilExcel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\documentformat.openxml\\3.0.2\\documentformat.openxml.3.0.2.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\documentformat.openxml.framework\\3.0.2\\documentformat.openxml.framework.3.0.2.nupkg.sha512",
