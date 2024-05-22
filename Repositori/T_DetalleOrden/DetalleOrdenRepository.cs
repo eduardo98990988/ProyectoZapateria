@@ -16,5 +16,9 @@ namespace Repositori.T_DetalleOrden
         {
             throw new NotImplementedException();
         }
+        //ejecucion de los pryectos actualizanfo 
+
+
+
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xo547AeX40oBiCpHcOElRhNH0LXbk7U1DJbf2aKJV+yb7dsaUHLXgKAbMBjgkzL2qVfJU6Wao3MXfL+d1bPHtg==",
+  "dgSpecHash": "Ah+cQbLFgOF2XpuxoJRmyH6ncxZYqQJ3CSNpglkr3F4vRo26OE4e5Z3wVrMmby00xOP15wB6pm+z2WytmDbuwQ==",
   "success": true,
-  "projectFilePath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\BackendZapateria\\UtilitySecuriry\\UtilitySecuriry.csproj",
+  "projectFilePath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilitySecuriry\\UtilitySecuriry.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.4\\microsoft.aspnetcore.authentication.jwtbearer.8.0.4.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

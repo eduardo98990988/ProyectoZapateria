@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kEaJS0OVP6Vb/EQS+XR3JWY8skugviBZvEXNHwJiIuViwtcOSMtPho3YVcyqA/QiIaq3Q1TVbYwLaFZ9seTDig==",
+  "dgSpecHash": "tZxKnBehpakKMVPsR/rh0rKxKcaYneiwxmz7aG81hmFZ3vSZUmiqG0rxR4hs7irtreAriCP39uZqfn1WnA+48A==",
   "success": true,
-  "projectFilePath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\BackendZapateria\\BackendZapateria\\BackendZapateria.csproj",
+  "projectFilePath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\BackendZapateria\\BackendZapateria.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
