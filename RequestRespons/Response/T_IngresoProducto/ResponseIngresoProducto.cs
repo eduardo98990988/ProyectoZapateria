@@ -11,6 +11,6 @@ namespace RequestRespons.Response.T_IngresoProducto
     public class ResponseIngresoProducto
     {
         public string message { get; set; } = null;
-        public List<ResponseVDetalleProduccion> detalleProduccions { get; set; } = new List<ResponseVDetalleProduccion>();
+        public List<ResponseVIngresoProducto> detalleProduccions { get; set; } = new List<ResponseVIngresoProducto>();
     }
 }

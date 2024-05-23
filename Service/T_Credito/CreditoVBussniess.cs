@@ -43,6 +43,7 @@ namespace Bussniess.T_Credito
         }
 
         #endregion Fin Declaracion de Variables 
+        #region Crud
         public ResponseCredito Create(RequestVCredito entity)
         {
             RequestCredito requestCredito = new RequestCredito();
@@ -106,5 +107,6 @@ namespace Bussniess.T_Credito
         {
             throw new NotImplementedException();
         }
+        #endregion Crud
     }
 }
