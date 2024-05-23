@@ -63,9 +63,6 @@ namespace Bussniess.T_IngresoProducto
             responseIngresoProducto.message = "Se creo el Ingreso de Producto";
             responseIngresoProducto.detalleProduccions.Add(responseVIngresoProducto);
             return responseIngresoProducto;
-
-
-            throw new NotImplementedException();
         }
 
         public List<ResponseIngresoProducto> CreateMultiple(List<RequestVIngresoProducto> lista)
