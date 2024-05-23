@@ -9,5 +9,6 @@ namespace IRepository.T_Producto
 {
     public interface IProductoRepository : ICrudRepository<Producto>
     {
+       public Producto BsucarProducto(string nombreProducto);
     }
 }
