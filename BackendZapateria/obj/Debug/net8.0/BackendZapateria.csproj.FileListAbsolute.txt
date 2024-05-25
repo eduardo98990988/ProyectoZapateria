@@ -156,3 +156,14 @@ D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\BackendZapateria\obj\D
 D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\BackendZapateria\obj\Debug\net8.0\ref\BackendZapateria.dll
 D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\BackendZapateria\bin\Debug\net8.0\RequestRespons.dll
 D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\BackendZapateria\bin\Debug\net8.0\RequestRespons.pdb
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\BackendZapateria\obj\Debug\net8.0\BackendZapateria.csproj.AssemblyReference.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\BackendZapateria\obj\Debug\net8.0\BackendZapateria.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\BackendZapateria\obj\Debug\net8.0\BackendZapateria.AssemblyInfoInputs.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\BackendZapateria\obj\Debug\net8.0\BackendZapateria.AssemblyInfo.cs
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\BackendZapateria\obj\Debug\net8.0\BackendZapateria.csproj.CoreCompileInputs.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\BackendZapateria\obj\Debug\net8.0\BackendZapateria.MvcApplicationPartsAssemblyInfo.cs
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\BackendZapateria\obj\Debug\net8.0\BackendZapateria.MvcApplicationPartsAssemblyInfo.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\BackendZapateria\obj\Debug\net8.0\BackendZapateria.sourcelink.json
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\BackendZapateria\obj\Debug\net8.0\BackendZapateria.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\BackendZapateria\obj\Debug\net8.0\refint\BackendZapateria.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\BackendZapateria\obj\Debug\net8.0\BackendZapateria.pdb

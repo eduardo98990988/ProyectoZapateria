@@ -27,3 +27,12 @@ D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\Service\bin\Debug\net8
 D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\Service\bin\Debug\net8.0\UtilitySecuriry.pdb
 D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\Service\bin\Debug\net8.0\RequestRespons.dll
 D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\Service\bin\Debug\net8.0\RequestRespons.pdb
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\Service\obj\Debug\net8.0\Bussniess.csproj.AssemblyReference.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\Service\obj\Debug\net8.0\Bussniess.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\Service\obj\Debug\net8.0\Bussniess.AssemblyInfoInputs.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\Service\obj\Debug\net8.0\Bussniess.AssemblyInfo.cs
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\Service\obj\Debug\net8.0\Bussniess.csproj.CoreCompileInputs.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\Service\obj\Debug\net8.0\Bussniess.sourcelink.json
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\Service\obj\Debug\net8.0\Bussniess.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\Service\obj\Debug\net8.0\refint\Bussniess.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\Service\obj\Debug\net8.0\Bussniess.pdb
