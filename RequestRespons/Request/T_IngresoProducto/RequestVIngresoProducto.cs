@@ -12,27 +12,22 @@ namespace RequestRespons.Request.T_IngresoProducto
     {
 
         [Key]
-        public int IdProduccion { get; set; }
+        public int IdIngresoProducto { get; set; }
 
         [StringLength(20)]
 
+
+        [Required]
         public string CodigoProduccion { get; set; } = null!;
 
-        [Key]
-        public int IdProducto { get; set; }
-
         [StringLength(40)]
+        [Required]
         public string? NombreProd { get; set; }
-
+        [Required]
         public int Cantidad { get; set; }
 
         [Column(TypeName = "datetime")]
         public DateTime FechaIngreso { get; set; }
-
-        public int IdUnidad { get; set; }
-
-        [StringLength(30)]
-        public string? NombreUnidad { get; set; }
 
 
     }

@@ -28,7 +28,8 @@ namespace Bussniess.T_Cliente
             _personaBussniess = new PersonaBussniess(mapper);
             _clienteBussniess = new ClienteBussniess(mapper);
         }
-
+        #endregion Fin Declaracion de Variables
+        #region Crud
         public ResponseCliente Create(RequestVCliente entity)
         {
             ResponseCliente respClietne = new ResponseCliente();
@@ -84,8 +85,9 @@ namespace Bussniess.T_Cliente
         {
             throw new NotImplementedException();
         }
+        #endregion Crud
 
-        #endregion Fin Declaracion de Variables
+
 
     }
 }
