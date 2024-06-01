@@ -5,7 +5,8 @@ using IRepository.T_Credito;
 using Repositori.T_Credito;
 using RequestRespons.Request.T_Credito;
 using RequestRespons.Response.T_Credito;
-
+using RequestResponse.Request;
+using RequestResponse.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -63,6 +64,11 @@ namespace Bussniess.T_Credito
             List<ResponseCredito> responseCredito = _mapper.Map<List<ResponseCredito>>(Credito);
             return responseCredito;
 
+        }
+
+        public ReponseFilterGeneric<ResponseCredito> GetByFilter(RequestFilterGeneric request)
+        {
+            throw new NotImplementedException();
         }
 
         public ResponseCredito GetById(object id)

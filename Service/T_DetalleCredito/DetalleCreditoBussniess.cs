@@ -6,6 +6,8 @@ using IRepository.T_DetalleCredito;
 using Repositori.T_DetalleCredito;
 using RequestRespons.Request.T_DetalleCredito;
 using RequestRespons.Response.T_DetalleCredito;
+using RequestResponse.Request;
+using RequestResponse.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -63,6 +65,11 @@ namespace Bussniess.T_DetalleCredito
             List<ResponseVDetalleCredito> ResponseVDetalleCredito = _mapper.Map<List<ResponseVDetalleCredito>>(DetalleCredito);
             return ResponseVDetalleCredito;
 
+        }
+
+        public ReponseFilterGeneric<ResponseVDetalleCredito> GetByFilter(RequestFilterGeneric request)
+        {
+            throw new NotImplementedException();
         }
 
         public ResponseVDetalleCredito GetById(object id)

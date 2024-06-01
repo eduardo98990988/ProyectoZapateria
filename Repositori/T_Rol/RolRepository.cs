@@ -14,7 +14,33 @@ namespace Repositori.T_Rol
     {
         public ReponseFilterGeneric<Rol> GetByFilter(RequestFilterGeneric request)
         {
-            throw new NotImplementedException();
+            var query = dbset.Where(x => x.Irol == x.Irol);
+            request.Filtros.ForEach(
+                j =>
+                {
+                    if (!string.IsNullOrEmpty(j.Value))
+                    {
+                        switch (j.Name)
+                        {
+                            case "Irol":
+                                query = query.Where(x => x.Irol == short.Parse(j.Value));
+                                break;
+                            case "NombreRol":
+                                query = query.Where(x => x.NombreRol.ToLower().Contains(j.Value.ToLower()));
+                                break;
+
+                        }
+                    }
+                }
+                );
+            ReponseFilterGeneric<Rol> res = new ReponseFilterGeneric<Rol>();
+            res.TotalRegistros = query.Count();
+            res.Lista = query
+
+                .Skip((request.NumeroPagina - 1) * request.Cantidad).Take(request.Cantidad)
+                .ToList();
+
+            return res;
         }
     }
 }

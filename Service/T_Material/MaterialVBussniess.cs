@@ -5,6 +5,8 @@ using IRepository.T_Unidad;
 using Repositori.T_Unidad;
 using RequestRespons.Request.T_Material;
 using RequestRespons.Response.T_Material;
+using RequestResponse.Request;
+using RequestResponse.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -62,6 +64,11 @@ namespace Bussniess.T_Material
         }
 
         public List<ResponseMaterial> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public ReponseFilterGeneric<ResponseMaterial> GetByFilter(RequestFilterGeneric request)
         {
             throw new NotImplementedException();
         }

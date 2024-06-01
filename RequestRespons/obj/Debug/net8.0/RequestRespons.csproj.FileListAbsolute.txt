@@ -9,3 +9,15 @@ D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\RequestRespons\obj\Deb
 D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\RequestRespons\obj\Debug\net8.0\refint\RequestRespons.dll
 D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\RequestRespons\obj\Debug\net8.0\RequestRespons.pdb
 D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\RequestRespons\obj\Debug\net8.0\ref\RequestRespons.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\RequestRespons\bin\Debug\net8.0\RequestRespons.deps.json
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\RequestRespons\bin\Debug\net8.0\RequestRespons.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\RequestRespons\bin\Debug\net8.0\RequestRespons.pdb
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\RequestRespons\obj\Debug\net8.0\RequestRespons.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\RequestRespons\obj\Debug\net8.0\RequestRespons.AssemblyInfoInputs.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\RequestRespons\obj\Debug\net8.0\RequestRespons.AssemblyInfo.cs
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\RequestRespons\obj\Debug\net8.0\RequestRespons.csproj.CoreCompileInputs.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\RequestRespons\obj\Debug\net8.0\RequestRespons.sourcelink.json
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\RequestRespons\obj\Debug\net8.0\RequestRespons.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\RequestRespons\obj\Debug\net8.0\refint\RequestRespons.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\RequestRespons\obj\Debug\net8.0\RequestRespons.pdb
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\RequestRespons\obj\Debug\net8.0\ref\RequestRespons.dll

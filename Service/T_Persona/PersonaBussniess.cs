@@ -3,7 +3,9 @@ using DBModelZapateria;
 using IBussniess.T_Persona;
 using IRepository.T_Persona;
 using Repositori.T_Persona;
+using RequestResponse.Request;
 using RequestResponse.Request.T_Persona;
+using RequestResponse.Response;
 using RequestResponse.Response.T_Persona;
 using System;
 using System.Collections.Generic;
@@ -61,6 +63,11 @@ namespace Bussniess.T_Persona
             List<Persona> persona = _personaRepository.GetAll();
             List<ResponsePersona> responsePersona = _mapper.Map<List<ResponsePersona>>(persona);
             return responsePersona;
+        }
+
+        public ReponseFilterGeneric<ResponsePersona> GetByFilter(RequestFilterGeneric request)
+        {
+            throw new NotImplementedException();
         }
 
         public ResponsePersona GetById(object id)

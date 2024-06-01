@@ -24,6 +24,8 @@ namespace RequestRespons.Request.T_Produccion
         public string EstadoProduccion { get; set; } = null!;
 
         public int? CantidadFaltante { get; set; }
+
+        public int IdUnidad { get; set; }
         [StringLength(40)]
         public string? NombreProd { get; set; }
 

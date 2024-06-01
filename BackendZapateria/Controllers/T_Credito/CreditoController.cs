@@ -4,6 +4,9 @@ using IBussniess.T_Credito;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RequestRespons.Request.T_Credito;
+using RequestRespons.Response.T_Credito;
+using RequestResponse.Request;
+using RequestResponse.Response;
 
 namespace BackendZapateria.Controllers.T_Credito
 {
@@ -31,6 +34,12 @@ namespace BackendZapateria.Controllers.T_Credito
         public IActionResult Create([FromBody] RequestCredito entity)
         {
             return Ok(_CreditoBussniess.Create(entity));
+        }
+        [HttpPost("filter")]
+        public IActionResult GetByFilter([FromBody] RequestFilterGeneric request)
+        {
+            ReponseFilterGeneric<ResponseCredito> filterCredito = _CreditoBussniess.GetByFilter(request);
+            return Ok(filterCredito);
         }
         [HttpPut]
         public IActionResult Update([FromBody] RequestCredito entity)

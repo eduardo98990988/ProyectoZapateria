@@ -5,6 +5,8 @@ using IRepository.T_DetalleProduccion;
 using Repositori.T_DetalleProduccion;
 using RequestRespons.Request.T_DetalleProduccion;
 using RequestRespons.Response.T_DetalleProduccion;
+using RequestResponse.Request;
+using RequestResponse.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -62,6 +64,11 @@ namespace Bussniess.T_DetalleProduccion
             List<ResponseVDetalleProduccion> ResponseVDetalleProduccion = _mapper.Map<List<ResponseVDetalleProduccion>>(DetalleProduccion);
             return ResponseVDetalleProduccion;
 
+        }
+
+        public ReponseFilterGeneric<ResponseVDetalleProduccion> GetByFilter(RequestFilterGeneric request)
+        {
+            throw new NotImplementedException();
         }
 
         public ResponseVDetalleProduccion GetById(object id)

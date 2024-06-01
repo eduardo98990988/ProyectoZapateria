@@ -3,7 +3,10 @@ using Bussniess.T_Produccion;
 using IBussniess.T_Produccion;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using RequestResponse.Request;
 using RequestResponse.Request.T_Produccion;
+using RequestResponse.Response;
+using RequestResponse.Response.T_Produccion;
 
 namespace BackendZapateria.Controllers.T_Produccion
 {
@@ -31,6 +34,12 @@ namespace BackendZapateria.Controllers.T_Produccion
         public IActionResult Create([FromBody] RequestProduccion entity)
         {
             return Ok(_ProduccionBussniess.Create(entity));
+        }
+        [HttpPost("filter")]
+        public IActionResult GetByFilter([FromBody] RequestFilterGeneric request)
+        {
+            ReponseFilterGeneric<ResponseVProduccion> filterProduccion = _ProduccionBussniess.GetByFilter(request);
+            return Ok(filterProduccion);
         }
         [HttpPut]
         public IActionResult Update([FromBody] RequestProduccion entity)

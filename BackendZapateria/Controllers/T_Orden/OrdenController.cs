@@ -4,6 +4,10 @@ using IBussniess.T_Orden;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RequestRespons.Request.T_Orden;
+using RequestRespons.Response.T_Orden;
+using RequestResponse.Request;
+using RequestResponse.Response;
+using RequestResponse.Response.T_Rol;
 
 
 namespace BackendZapateria.Controllers.T_Orden
@@ -32,6 +36,12 @@ namespace BackendZapateria.Controllers.T_Orden
         public IActionResult Create([FromBody] RequestOrden entity)
         {
             return Ok(_OrdenBussniess.Create(entity));
+        }
+        [HttpPost("filter")]
+        public IActionResult GetFilter([FromBody] RequestFilterGeneric request)
+        {
+            ReponseFilterGeneric<ResponseVOrden> filterRol = _OrdenBussniess.GetByFilter(request);
+            return Ok(filterRol);
         }
         [HttpPut]
         public IActionResult Update([FromBody] RequestOrden entity)

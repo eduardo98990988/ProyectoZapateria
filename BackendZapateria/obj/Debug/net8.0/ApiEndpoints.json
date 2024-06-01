@@ -1002,6 +1002,26 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BackendZapateria.Controllers.T_Modelo.ProductoStoreController",
+    "Method": "Get",
+    "RelativePath": "api/ProductoStore",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RequestRespons.Response.T_Producto.ResponseProcedureProducto, RequestRespons, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "BackendZapateria.Controllers.T_Proveedor.ProveedorController",
     "Method": "GetAll",
     "RelativePath": "api/Proveedor",
@@ -1128,6 +1148,22 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendZapateria.Controllers.T_Rol.RolController",
+    "Method": "GetByFilter",
+    "RelativePath": "api/Rol/filter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "RequestResponse.Request.RequestFilterGeneric",
         "IsRequired": true
       }
     ],

@@ -4,6 +4,9 @@ using IBussniess.T_SalidaMaterial;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RequestRespons.Request.T_SalidaMaterial;
+using RequestRespons.Response.T_SalidaMaterial;
+using RequestResponse.Request;
+using RequestResponse.Response;
 
 namespace BackendZapateria.Controllers.T_SalidaMaterial
 {
@@ -31,6 +34,12 @@ namespace BackendZapateria.Controllers.T_SalidaMaterial
         public IActionResult Create([FromBody] RequestSalidaMaterial entity)
         {
             return Ok(_SalidaMaterialBussniess.Create(entity));
+        }
+        [HttpPost("filter")]
+        public IActionResult GetByFilter([FromBody]RequestFilterGeneric request)
+        {
+            ReponseFilterGeneric<ResponseVSalidaMaterial> filterSalidaMaterial = _SalidaMaterialBussniess.GetByFilter(request);
+            return Ok(filterSalidaMaterial);
         }
         [HttpPut]
         public IActionResult Update([FromBody] RequestSalidaMaterial entity)

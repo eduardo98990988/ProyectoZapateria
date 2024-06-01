@@ -5,6 +5,8 @@ using IRepository.T_Area;
 using Repositori.T_Area;
 using RequestRespons.Request.T_Area;
 using RequestRespons.Response.T_Area;
+using RequestResponse.Request;
+using RequestResponse.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -62,6 +64,11 @@ namespace Bussniess.T_Area
             List<ResponseArea> responseArea = _mapper.Map<List<ResponseArea>>(Area);
             return responseArea;
 
+        }
+
+        public ReponseFilterGeneric<ResponseArea> GetByFilter(RequestFilterGeneric request)
+        {
+            throw new NotImplementedException();
         }
 
         public ResponseArea GetById(object id)

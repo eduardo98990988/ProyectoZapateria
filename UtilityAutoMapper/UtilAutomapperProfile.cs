@@ -2,6 +2,7 @@
 using DBModelZapateria;
 using RequestResponse.Request.T_Persona;
 using RequestResponse.Request.T_Rol;
+using RequestResponse.Request.T_Usuario;
 using RequestResponse.Response.T_Persona;
 using RequestResponse.Response.T_Rol;
 using RequestResponse.Response.T_Usuario;
@@ -34,7 +35,17 @@ namespace UtilityAutoMapper
             CreateMap<ResponseUsuario, ResponseVUsuario>().ReverseMap();
             CreateMap<ResponseVUsuario, ResponseUsuario>().ReverseMap();
 
+            CreateMap<RequestPersona, RequestUsuario>().ReverseMap();
+            CreateMap<RequestUsuario, ResponsePersona>().ReverseMap();
 
+            CreateMap<ResponseUsuario, RequestUsuario>().ReverseMap();
+            CreateMap<RequestUsuario, ResponseUsuario>().ReverseMap();
+
+            CreateMap<ResponseUsuario, Usuario>().ReverseMap();
+            CreateMap<Usuario, ResponseUsuario>().ReverseMap();
+
+            CreateMap<RequestUsuario, Usuario>().ReverseMap();
+            CreateMap<Usuario, RequestUsuario>().ReverseMap();
 
             #endregion Usuario
             #region Rol

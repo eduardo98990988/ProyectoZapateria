@@ -3,7 +3,9 @@ using DBModelZapateria;
 using IBussniess.T_Produccion;
 using IRepository.T_Produccion;
 using Repositori.T_Produccion;
+using RequestResponse.Request;
 using RequestResponse.Request.T_Produccion;
+using RequestResponse.Response;
 using RequestResponse.Response.T_Produccion;
 using System;
 using System.Collections.Generic;
@@ -61,6 +63,11 @@ namespace Bussniess.T_Produccion
             List<Produccion> Produccion = _ProduccionRepository.GetAll();
             List<ResponseVProduccion> ResponseVProduccion = _mapper.Map<List<ResponseVProduccion>>(Produccion);
             return ResponseVProduccion;
+        }
+
+        public ReponseFilterGeneric<ResponseVProduccion> GetByFilter(RequestFilterGeneric request)
+        {
+            throw new NotImplementedException();
         }
 
         public ResponseVProduccion GetById(object id)

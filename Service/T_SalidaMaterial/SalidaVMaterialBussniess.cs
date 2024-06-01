@@ -13,6 +13,8 @@ using RequestRespons.Request.T_Material;
 using RequestRespons.Request.T_SalidaMaterial;
 using RequestRespons.Response.T_Material;
 using RequestRespons.Response.T_SalidaMaterial;
+using RequestResponse.Request;
+using RequestResponse.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -129,6 +131,11 @@ namespace Bussniess.T_SalidaMaterial
         }
 
         public List<ResponseSalidaMaterial> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public ReponseFilterGeneric<ResponseSalidaMaterial> GetByFilter(RequestFilterGeneric request)
         {
             throw new NotImplementedException();
         }

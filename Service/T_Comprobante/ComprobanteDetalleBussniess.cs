@@ -3,7 +3,9 @@ using DBModelZapateria;
 using IBussniess.T_Comprobante;
 using IRepository.T_Comprobante;
 using Repositori.T_Comprobante;
+using RequestResponse.Request;
 using RequestResponse.Request.T_Comprobante;
+using RequestResponse.Response;
 using RequestResponse.Response.T_Comprobante;
 using System;
 using System.Collections.Generic;
@@ -56,6 +58,11 @@ namespace Bussniess.T_Comprobante
         }
 
         public List<ResponseVComprobanteDetalle> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public ReponseFilterGeneric<ResponseVComprobanteDetalle> GetByFilter(RequestFilterGeneric request)
         {
             throw new NotImplementedException();
         }

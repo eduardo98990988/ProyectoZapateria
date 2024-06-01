@@ -9,3 +9,15 @@ D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\ConmomModel\obj\Debug\
 D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\ConmomModel\obj\Debug\net8.0\refint\ConmomModel.dll
 D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\ConmomModel\obj\Debug\net8.0\ConmomModel.pdb
 D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\ConmomModel\obj\Debug\net8.0\ref\ConmomModel.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\ConmomModel\bin\Debug\net8.0\ConmomModel.deps.json
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\ConmomModel\bin\Debug\net8.0\ConmomModel.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\ConmomModel\bin\Debug\net8.0\ConmomModel.pdb
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\ConmomModel\obj\Debug\net8.0\ConmomModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\ConmomModel\obj\Debug\net8.0\ConmomModel.AssemblyInfoInputs.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\ConmomModel\obj\Debug\net8.0\ConmomModel.AssemblyInfo.cs
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\ConmomModel\obj\Debug\net8.0\ConmomModel.csproj.CoreCompileInputs.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\ConmomModel\obj\Debug\net8.0\ConmomModel.sourcelink.json
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\ConmomModel\obj\Debug\net8.0\ConmomModel.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\ConmomModel\obj\Debug\net8.0\refint\ConmomModel.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\ConmomModel\obj\Debug\net8.0\ConmomModel.pdb
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\ConmomModel\obj\Debug\net8.0\ref\ConmomModel.dll

@@ -4,6 +4,10 @@ using IBussniess.T_Proveedor;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RequestRespons.Request.T_Proveedor;
+using RequestRespons.Response.T_Orden;
+using RequestRespons.Response.T_Proveedor;
+using RequestResponse.Request;
+using RequestResponse.Response;
 
 namespace BackendZapateria.Controllers.T_Proveedor
 {
@@ -31,6 +35,12 @@ namespace BackendZapateria.Controllers.T_Proveedor
         public IActionResult Create([FromBody] RequestProveedor entity)
         {
             return Ok(_ProveedorBussniess.Create(entity));
+        }
+        [HttpPost("filter")]
+        public IActionResult GetByfilter([FromBody]RequestFilterGeneric request)
+        {
+            ReponseFilterGeneric<ResponseVProveedor> filterOrden = _ProveedorBussniess.GetByFilter(request);
+            return Ok(filterOrden);
         }
         [HttpPut]
         public IActionResult Update([FromBody] RequestProveedor entity)

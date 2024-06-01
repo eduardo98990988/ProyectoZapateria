@@ -3,7 +3,9 @@ using DBModelZapateria;
 using IBussniess.T_Rol;
 using IRepository.T_Rol;
 using Repositori.T_Rol;
+using RequestResponse.Request;
 using RequestResponse.Request.T_Rol;
+using RequestResponse.Response;
 using RequestResponse.Response.T_Rol;
 using System;
 using System.Collections.Generic;
@@ -53,7 +55,7 @@ namespace Bussniess.T_Rol
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            GC.SuppressFinalize(this);
         }
 
         public List<ResponseRol> GetAll()
@@ -62,6 +64,12 @@ namespace Bussniess.T_Rol
             List<ResponseRol> responseRol = _mapper.Map<List<ResponseRol>>(Rol);
             return responseRol;
 
+        }
+
+        public ReponseFilterGeneric<ResponseRol> GetByFilter(RequestFilterGeneric request)
+        {
+            ReponseFilterGeneric<ResponseRol>response = _mapper.Map<ReponseFilterGeneric<ResponseRol>>(_RolRepository.GetByFilter( request));
+            return response;
         }
 
         public ResponseRol GetById(object id)

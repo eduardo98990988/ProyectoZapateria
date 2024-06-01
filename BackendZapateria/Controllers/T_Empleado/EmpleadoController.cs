@@ -3,7 +3,10 @@ using Bussniess.T_Empleado;
 using IBussniess.T_Empleado;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using RequestResponse.Request;
 using RequestResponse.Request.T_Empleado;
+using RequestResponse.Response;
+using RequestResponse.Response.T_Empleado;
 
 namespace BackendZapateria.Controllers.T_Empleado
 {
@@ -31,6 +34,12 @@ namespace BackendZapateria.Controllers.T_Empleado
         public IActionResult Create([FromBody] RequestEmpleado entity)
         {
             return Ok(_EmpleadoBussniess.Create(entity));
+        }
+        [HttpPost("filter")]
+        public IActionResult GetByFilter([FromBody] RequestFilterGeneric request)
+        {
+            ReponseFilterGeneric<ResponseVEmpleado> filterEmpleado = _EmpleadoBussniess.GetByFilter(request);
+            return Ok(filterEmpleado);
         }
         [HttpPut]
         public IActionResult Update([FromBody] RequestEmpleado entity)

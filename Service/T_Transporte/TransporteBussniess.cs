@@ -5,6 +5,8 @@ using IRepository.T_Transporte;
 using Repositori.T_Transporte;
 using RequestRespons.Request.T_Transporte;
 using RequestRespons.Response.T_Transporte;
+using RequestResponse.Request;
+using RequestResponse.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,7 +28,8 @@ namespace Bussniess.T_Transporte
             _TransporteRepository = new TransporteRepository();
 
         }
-
+        #endregion Fin Inyeccion de Dependencias
+        #region Crud
         public ResponseVTransporte Create(RequestTransporte entity)
         {
             Trasporte Transporte = _mapper.Map<Trasporte>(entity);
@@ -64,6 +67,11 @@ namespace Bussniess.T_Transporte
 
         }
 
+        public ReponseFilterGeneric<ResponseVTransporte> GetByFilter(RequestFilterGeneric request)
+        {
+            throw new NotImplementedException();
+        }
+
         public ResponseVTransporte GetById(object id)
         {
             Trasporte Transporte = _TransporteRepository.GetByID(id);
@@ -84,7 +92,7 @@ namespace Bussniess.T_Transporte
         {
             throw new NotImplementedException();
         }
-
-        #endregion Fin Inyeccion de Dependencias
+        #endregion Crud
+      
     }
 }

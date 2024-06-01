@@ -4,8 +4,10 @@ using IBussniess.T_Empleado;
 using IBussniess.T_Persona;
 using IRepository.T_Persona;
 using RequestRespons.Request.T_Empleado;
+using RequestResponse.Request;
 using RequestResponse.Request.T_Empleado;
 using RequestResponse.Request.T_Persona;
+using RequestResponse.Response;
 using RequestResponse.Response.T_Empleado;
 using RequestResponse.Response.T_Persona;
 using System;
@@ -72,6 +74,11 @@ namespace Bussniess.T_Empleado
         }
 
         public List<ResponseEmpleado> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public ReponseFilterGeneric<ResponseEmpleado> GetByFilter(RequestFilterGeneric request)
         {
             throw new NotImplementedException();
         }

@@ -5,6 +5,8 @@ using IRepository.T_Material;
 using Repositori.T_Material;
 using RequestRespons.Request.T_Material;
 using RequestRespons.Response.T_Material;
+using RequestResponse.Request;
+using RequestResponse.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -62,6 +64,11 @@ namespace Bussniess.T_Material
             List<ResponseVMaterial> ResponseVMaterial = _mapper.Map<List<ResponseVMaterial>>(Material);
             return ResponseVMaterial;
 
+        }
+
+        public ReponseFilterGeneric<ResponseVMaterial> GetByFilter(RequestFilterGeneric request)
+        {
+            throw new NotImplementedException();
         }
 
         public ResponseVMaterial GetById(object id)

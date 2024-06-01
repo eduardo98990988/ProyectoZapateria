@@ -5,6 +5,8 @@ using IRepository.T_DetalleEnvio;
 using Repositori.T_DetalleEnvio;
 using RequestRespons.Request.T_DetalleEnvio;
 using RequestRespons.Response.T_DetalleEnvio;
+using RequestResponse.Request;
+using RequestResponse.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -62,6 +64,11 @@ namespace Bussniess.T_DetalleEnvio
             List<ResponseVDetalleEnvio> ResponseVDetalleEnvio = _mapper.Map<List<ResponseVDetalleEnvio>>(DetalleEnvio);
             return ResponseVDetalleEnvio;
 
+        }
+
+        public ReponseFilterGeneric<ResponseVDetalleEnvio> GetByFilter(RequestFilterGeneric request)
+        {
+            throw new NotImplementedException();
         }
 
         public ResponseVDetalleEnvio GetById(object id)

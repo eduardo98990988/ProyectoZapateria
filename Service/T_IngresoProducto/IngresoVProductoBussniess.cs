@@ -11,6 +11,8 @@ using RequestRespons.Request.T_IngresoProducto;
 using RequestRespons.Request.T_Producto;
 using RequestRespons.Response.T_IngresoProducto;
 using RequestRespons.Response.T_Producto;
+using RequestResponse.Request;
+using RequestResponse.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -86,6 +88,11 @@ namespace Bussniess.T_IngresoProducto
         }
 
         public List<ResponseIngresoProducto> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public ReponseFilterGeneric<ResponseIngresoProducto> GetByFilter(RequestFilterGeneric request)
         {
             throw new NotImplementedException();
         }
