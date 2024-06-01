@@ -5,6 +5,8 @@ using IRepository.T_Orden;
 using Repositori.T_Orden;
 using RequestRespons.Request.T_Orden;
 using RequestRespons.Response.T_Orden;
+using RequestResponse.Request;
+using RequestResponse.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -62,6 +64,11 @@ namespace Bussniess.T_Orden
             List<ResponseVOrden> ResponseVOrden = _mapper.Map<List<ResponseVOrden>>(Orden);
             return ResponseVOrden;
 
+        }
+
+        public ReponseFilterGeneric<ResponseVOrden> GetByFilter(RequestFilterGeneric request)
+        {
+            throw new NotImplementedException();
         }
 
         public ResponseVOrden GetById(object id)

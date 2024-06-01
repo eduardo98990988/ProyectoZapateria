@@ -3,7 +3,9 @@ using DBModelZapateria;
 using IBussniess.T_Empleado;
 using IRepository.T_Empleado;
 using Repositori.T_Empleado;
+using RequestResponse.Request;
 using RequestResponse.Request.T_Empleado;
+using RequestResponse.Response;
 using RequestResponse.Response.T_Empleado;
 using System;
 using System.Collections.Generic;
@@ -13,7 +15,7 @@ using System.Threading.Tasks;
 
 namespace Bussniess.T_Empleado
 {
-    public class EmpleadoBussniess : IEmpleadoBussniess 
+    public class EmpleadoBussniess : IEmpleadoBussniess
     {
         #region Inyeccion de Dependencias
         private readonly IEmpleadoRepository _EmpleadoRepository;
@@ -61,6 +63,11 @@ namespace Bussniess.T_Empleado
             List<Empleado> Empleado = _EmpleadoRepository.GetAll();
             List<ResponseVEmpleado> ResponseVEmpleado = _mapper.Map<List<ResponseVEmpleado>>(Empleado);
             return ResponseVEmpleado;
+        }
+
+        public ReponseFilterGeneric<ResponseVEmpleado> GetByFilter(RequestFilterGeneric request)
+        {
+            throw new NotImplementedException();
         }
 
         public ResponseVEmpleado GetById(object id)

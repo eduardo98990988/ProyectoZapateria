@@ -4,7 +4,9 @@ using IBussniess;
 using IBussniess.T_Usuario;
 using IRepository.T_Usuario;
 using Repositori.T_Usuario;
+using RequestResponse.Request;
 using RequestResponse.Request.T_Usuario;
+using RequestResponse.Response;
 using RequestResponse.Response.T_Usuario;
 using System;
 using System.Collections.Generic;
@@ -62,6 +64,11 @@ namespace Bussniess.T_Usuario
             List<ResponseVUsuario> responseVUsuario = _mapper.Map<List<ResponseVUsuario>>(usuario);
             return responseVUsuario;
      
+        }
+
+        public ReponseFilterGeneric<ResponseVUsuario> GetByFilter(RequestFilterGeneric request)
+        {
+            throw new NotImplementedException();
         }
 
         public ResponseVUsuario GetById(object id)

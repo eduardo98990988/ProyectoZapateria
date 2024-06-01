@@ -10,7 +10,9 @@ using Repositori.T_Unidad;
 using RequestRespons.Request.T_Comprobante;
 using RequestRespons.Request.T_ComprobanteProveedor;
 using RequestRespons.Response.T_ComprobanteProveedor;
+using RequestResponse.Request;
 using RequestResponse.Request.T_Comprobante;
+using RequestResponse.Response;
 using RequestResponse.Response.T_Comprobante;
 using RequestResponse.Response.T_Unidad;
 using System;
@@ -86,6 +88,11 @@ namespace Bussniess.T_Comprobante
         }
 
         public List<ResponseComprobanteDetalle> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public ReponseFilterGeneric<ResponseComprobanteDetalle> GetByFilter(RequestFilterGeneric request)
         {
             throw new NotImplementedException();
         }

@@ -5,6 +5,8 @@ using IRepository.T_DetalleOrden;
 using Repositori.T_DetalleOrden;
 using RequestRespons.Request.T_DetalleOrden;
 using RequestRespons.Response.T_DetalleOrden;
+using RequestResponse.Request;
+using RequestResponse.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -62,6 +64,11 @@ namespace Bussniess.T_DetalleOrden
             List<ResponseVDetalleOrden> ResponseVDetalleOrden = _mapper.Map<List<ResponseVDetalleOrden>>(DetalleOrden);
             return ResponseVDetalleOrden;
 
+        }
+
+        public ReponseFilterGeneric<ResponseVDetalleOrden> GetByFilter(RequestFilterGeneric request)
+        {
+            throw new NotImplementedException();
         }
 
         public ResponseVDetalleOrden GetById(object id)

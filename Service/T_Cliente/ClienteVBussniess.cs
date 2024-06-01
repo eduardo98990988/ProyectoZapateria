@@ -4,7 +4,9 @@ using IBussniess.T_Cliente;
 using IBussniess.T_Persona;
 using RequestRespons.Request.T_Cliente;
 using RequestRespons.Response.T_Cliente;
+using RequestResponse.Request;
 using RequestResponse.Request.T_Persona;
+using RequestResponse.Response;
 using RequestResponse.Response.T_Persona;
 using System;
 using System.Collections.Generic;
@@ -67,6 +69,11 @@ namespace Bussniess.T_Cliente
         }
 
         public List<ResponseCliente> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public ReponseFilterGeneric<ResponseCliente> GetByFilter(RequestFilterGeneric request)
         {
             throw new NotImplementedException();
         }

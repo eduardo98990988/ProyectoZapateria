@@ -5,6 +5,8 @@ using IRepository.T_Modelo;
 using Repositori.T_Modelo;
 using RequestRespons.Request.T_Modelo;
 using RequestRespons.Response.T_Modelo;
+using RequestResponse.Request;
+using RequestResponse.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,7 +28,8 @@ namespace Bussniess.T_Modelo
             _ModeloRepository = new ModeloRepository();
 
         }
-
+        #endregion Fin Inyeccion de Dependencias
+        #region CRUD
         public ResponseModelo Create(RequestModelo entity)
         {
             Modelo Modelo = _mapper.Map<Modelo>(entity);
@@ -64,6 +67,11 @@ namespace Bussniess.T_Modelo
 
         }
 
+        public ReponseFilterGeneric<ResponseModelo> GetByFilter(RequestFilterGeneric request)
+        {
+            throw new NotImplementedException();
+        }
+
         public ResponseModelo GetById(object id)
         {
             Modelo Modelo = _ModeloRepository.GetByID(id);
@@ -84,7 +92,7 @@ namespace Bussniess.T_Modelo
         {
             throw new NotImplementedException();
         }
-
-        #endregion Fin Inyeccion de Dependencias
+        #endregion CRUD
+       
     }
 }

@@ -12,6 +12,12 @@ namespace Repositori.T_Empleado
 {
     public class EmpleadoRepository : CrudRepository<Empleado>, IEmpleadoRepository
     {
+        public Empleado BuscarEmpleado(string nombreEmpleado)
+        {
+            Empleado empleado = db.Empleados.Where(x=>x.ApellidoEmp==nombreEmpleado).FirstOrDefault();
+            return empleado;
+        }
+
         public ReponseFilterGeneric<Empleado> GetByFilter(RequestFilterGeneric request)
         {
             throw new NotImplementedException();

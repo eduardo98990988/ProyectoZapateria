@@ -1,4 +1,6 @@
-﻿using System;
+﻿using RequestResponse.Request;
+using RequestResponse.Response;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,7 +23,8 @@ namespace IBussniess
 
         List<Y> UpdateMultiple (List<T> lista);
 
-        int DeleteMultiple (List<T> lista); 
+        int DeleteMultiple (List<T> lista);
+       ReponseFilterGeneric <Y> GetByFilter(RequestFilterGeneric request);
 
 
 

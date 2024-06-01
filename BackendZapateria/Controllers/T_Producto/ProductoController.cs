@@ -4,6 +4,9 @@ using IBussniess.T_Producto;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RequestRespons.Request.T_Producto;
+using RequestRespons.Response.T_Producto;
+using RequestResponse.Request;
+using RequestResponse.Response;
 
 namespace BackendZapateria.Controllers.T_Producto
 {
@@ -31,6 +34,12 @@ namespace BackendZapateria.Controllers.T_Producto
         public IActionResult Create([FromBody] RequestProducto entity)
         {
             return Ok(_ProductoBussniess.Create(entity));
+        }
+        [HttpPost("filter")]
+        public IActionResult GetBYFilter([FromBody] RequestFilterGeneric request)
+        {
+            ReponseFilterGeneric<ResponseVProducto> filterProducto = _ProductoBussniess.GetByFilter(request);
+            return Ok(filterProducto);
         }
         [HttpPut]
         public IActionResult Update([FromBody] RequestProducto entity)

@@ -5,6 +5,8 @@ using IRepository.T_SalidaMaterial;
 using Repositori.T_SalidaMaterial;
 using RequestRespons.Request.T_SalidaMaterial;
 using RequestRespons.Response.T_SalidaMaterial;
+using RequestResponse.Request;
+using RequestResponse.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -62,6 +64,11 @@ namespace Bussniess.T_SalidaMaterial
             List<ResponseVSalidaMaterial> ResponseVSalidaMaterial = _mapper.Map<List<ResponseVSalidaMaterial>>(SalidaMaterial);
             return ResponseVSalidaMaterial;
 
+        }
+
+        public ReponseFilterGeneric<ResponseVSalidaMaterial> GetByFilter(RequestFilterGeneric request)
+        {
+            throw new NotImplementedException();
         }
 
         public ResponseVSalidaMaterial GetById(object id)

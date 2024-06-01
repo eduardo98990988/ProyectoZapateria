@@ -5,6 +5,8 @@ using IRepository.T_Producto;
 using Repositori.T_Producto;
 using RequestRespons.Request.T_Producto;
 using RequestRespons.Response.T_Producto;
+using RequestResponse.Request;
+using RequestResponse.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -62,6 +64,11 @@ namespace Bussniess.T_Producto
             List<ResponseVProducto> ResponseVProducto = _mapper.Map<List<ResponseVProducto>>(Producto);
             return ResponseVProducto;
 
+        }
+
+        public ReponseFilterGeneric<ResponseVProducto> GetByFilter(RequestFilterGeneric request)
+        {
+            throw new NotImplementedException();
         }
 
         public ResponseVProducto GetById(object id)

@@ -14,6 +14,8 @@ using RequestRespons.Response.T_Cliente;
 using RequestRespons.Response.T_Credito;
 using RequestRespons.Response.T_DetalleCredito;
 using RequestRespons.Response.T_Orden;
+using RequestResponse.Request;
+using RequestResponse.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -89,6 +91,11 @@ namespace Bussniess.T_Credito
         }
 
         public List<ResponseCredito> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public ReponseFilterGeneric<ResponseCredito> GetByFilter(RequestFilterGeneric request)
         {
             throw new NotImplementedException();
         }

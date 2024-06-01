@@ -1,6 +1,8 @@
 ﻿using IBussniess.T_ComprobanteProveedor;
 using RequestRespons.Request.T_ComprobanteProveedor;
 using RequestRespons.Response.T_ComprobanteProveedor;
+using RequestResponse.Request;
+using RequestResponse.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -39,6 +41,11 @@ namespace Bussniess.T_ComprobanteProveedor
         }
 
         public List<ResponseComprobanteProveedor> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public ReponseFilterGeneric<ResponseComprobanteProveedor> GetByFilter(RequestFilterGeneric request)
         {
             throw new NotImplementedException();
         }

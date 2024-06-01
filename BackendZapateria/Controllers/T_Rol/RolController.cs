@@ -3,8 +3,11 @@ using Bussniess.T_Rol;
 using IBussniess.T_Rol;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using RequestResponse.Request;
 using RequestResponse.Request.T_Rol;
 using RequestResponse.Request.T_Usuario;
+using RequestResponse.Response;
+using RequestResponse.Response.T_Rol;
 
 namespace BackendZapateria.Controllers.T_Rol
 {
@@ -32,6 +35,12 @@ namespace BackendZapateria.Controllers.T_Rol
         public IActionResult Create([FromBody] RequestRol entity)
         {
             return Ok(_rolBussniess.Create(entity));
+        }
+        [HttpPost("filter")]
+        public IActionResult GetByFilter([FromBody] RequestFilterGeneric request)
+        {
+            ReponseFilterGeneric<ResponseRol> res = _rolBussniess.GetByFilter(request);
+            return Ok(res);
         }
         [HttpGet("{id}")]
         public IActionResult Get(int id)

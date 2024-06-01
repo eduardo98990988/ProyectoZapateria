@@ -5,6 +5,8 @@ using IRepository.T_Proveedor;
 using Repositori.T_Proveedor;
 using RequestRespons.Request.T_Proveedor;
 using RequestRespons.Response.T_Proveedor;
+using RequestResponse.Request;
+using RequestResponse.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -62,6 +64,11 @@ namespace Bussniess.T_Proveedor
             List<ResponseVProveedor> ResponseVProveedor = _mapper.Map<List<ResponseVProveedor>>(Proveedor);
             return ResponseVProveedor;
 
+        }
+
+        public ReponseFilterGeneric<ResponseVProveedor> GetByFilter(RequestFilterGeneric request)
+        {
+            throw new NotImplementedException();
         }
 
         public ResponseVProveedor GetById(object id)

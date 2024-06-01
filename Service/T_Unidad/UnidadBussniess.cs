@@ -3,7 +3,9 @@ using DBModelZapateria;
 using IBussniess.T_Unidad;
 using IRepository.T_Unidad;
 using Repositori.T_Unidad;
+using RequestResponse.Request;
 using RequestResponse.Request.T_Unidad;
+using RequestResponse.Response;
 using RequestResponse.Response.T_Unidad;
 using System;
 using System.Collections.Generic;
@@ -62,6 +64,11 @@ namespace Bussniess.T_Unidad
             List<ResponseUnidad> responseUnidad = _mapper.Map<List<ResponseUnidad>>(Unidad);
             return responseUnidad;
 
+        }
+
+        public ReponseFilterGeneric<ResponseUnidad> GetByFilter(RequestFilterGeneric request)
+        {
+            throw new NotImplementedException();
         }
 
         public ResponseUnidad GetById(object id)

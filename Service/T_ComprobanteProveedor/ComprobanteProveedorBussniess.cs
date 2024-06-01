@@ -7,7 +7,9 @@ using Repositori.T_Comprobante;
 using Repositori.T_ComprobanteProveedor;
 using RequestRespons.Request.T_ComprobanteProveedor;
 using RequestRespons.Response.T_ComprobanteProveedor;
+using RequestResponse.Request;
 using RequestResponse.Request.T_Comprobante;
+using RequestResponse.Response;
 using RequestResponse.Response.T_Comprobante;
 using System;
 using System.Collections.Generic;
@@ -65,6 +67,11 @@ namespace Bussniess.T_ComprobanteProveedor
             List<ComprobanteProvedor> ComprobanteProveedor = _ComprobanteProveedorRepository.GetAll();
             List<ResponseVComprobanteProveedor> ResponseVComprobanteProveedor = _mapper.Map<List<ResponseVComprobanteProveedor>>(ComprobanteProveedor);
             return ResponseVComprobanteProveedor;
+        }
+
+        public ReponseFilterGeneric<ResponseVComprobanteProveedor> GetByFilter(RequestFilterGeneric request)
+        {
+            throw new NotImplementedException();
         }
 
         public ResponseVComprobanteProveedor GetById(object id)
