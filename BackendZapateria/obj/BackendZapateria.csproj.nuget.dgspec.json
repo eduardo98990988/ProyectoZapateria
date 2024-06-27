@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\BackendZapateria\\BackendZapateria.csproj": {}
+    "E:\\Zapateria6Ciclo\\BackendZapateria\\BackendZapateria.csproj": {}
   },
   "projects": {
-    "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\BackendZapateria\\BackendZapateria.csproj": {
+    "E:\\Zapateria6Ciclo\\BackendZapateria\\BackendZapateria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\BackendZapateria\\BackendZapateria.csproj",
+        "projectUniqueName": "E:\\Zapateria6Ciclo\\BackendZapateria\\BackendZapateria.csproj",
         "projectName": "BackendZapateria",
-        "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\BackendZapateria\\BackendZapateria.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\BackendZapateria\\obj\\",
+        "projectPath": "E:\\Zapateria6Ciclo\\BackendZapateria\\BackendZapateria.csproj",
+        "packagesPath": "C:\\Users\\laba\\.nuget\\packages\\",
+        "outputPath": "E:\\Zapateria6Ciclo\\BackendZapateria\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\laba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,23 +26,24 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\Repositori\\Repositori.csproj": {
-                "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\Repositori\\Repositori.csproj"
+              "E:\\Zapateria6Ciclo\\Repositori\\Repositori.csproj": {
+                "projectPath": "E:\\Zapateria6Ciclo\\Repositori\\Repositori.csproj"
               },
-              "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\Service\\Bussniess.csproj": {
-                "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\Service\\Bussniess.csproj"
+              "E:\\Zapateria6Ciclo\\Service\\Bussniess.csproj": {
+                "projectPath": "E:\\Zapateria6Ciclo\\Service\\Bussniess.csproj"
               },
-              "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilityAutoMapper\\UtilityAutoMapper.csproj": {
-                "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilityAutoMapper\\UtilityAutoMapper.csproj"
+              "E:\\Zapateria6Ciclo\\UtilityAutoMapper\\UtilityAutoMapper.csproj": {
+                "projectPath": "E:\\Zapateria6Ciclo\\UtilityAutoMapper\\UtilityAutoMapper.csproj"
               },
-              "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilitySecuriry\\UtilitySecuriry.csproj": {
-                "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilitySecuriry\\UtilitySecuriry.csproj"
+              "E:\\Zapateria6Ciclo\\UtilitySecuriry\\UtilitySecuriry.csproj": {
+                "projectPath": "E:\\Zapateria6Ciclo\\UtilitySecuriry\\UtilitySecuriry.csproj"
               }
             }
           }
@@ -130,21 +135,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\ConmomModel\\ConmomModel.csproj": {
+    "E:\\Zapateria6Ciclo\\ConmomModel\\ConmomModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\ConmomModel\\ConmomModel.csproj",
+        "projectUniqueName": "E:\\Zapateria6Ciclo\\ConmomModel\\ConmomModel.csproj",
         "projectName": "ConmomModel",
-        "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\ConmomModel\\ConmomModel.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\ConmomModel\\obj\\",
+        "projectPath": "E:\\Zapateria6Ciclo\\ConmomModel\\ConmomModel.csproj",
+        "packagesPath": "C:\\Users\\laba\\.nuget\\packages\\",
+        "outputPath": "E:\\Zapateria6Ciclo\\ConmomModel\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\laba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -152,6 +161,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -190,21 +200,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\DBModelZapateria\\DBModelZapateria.csproj": {
+    "E:\\Zapateria6Ciclo\\DBModelZapateria\\DBModelZapateria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\DBModelZapateria\\DBModelZapateria.csproj",
+        "projectUniqueName": "E:\\Zapateria6Ciclo\\DBModelZapateria\\DBModelZapateria.csproj",
         "projectName": "DBModelZapateria",
-        "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\DBModelZapateria\\DBModelZapateria.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\DBModelZapateria\\obj\\",
+        "projectPath": "E:\\Zapateria6Ciclo\\DBModelZapateria\\DBModelZapateria.csproj",
+        "packagesPath": "C:\\Users\\laba\\.nuget\\packages\\",
+        "outputPath": "E:\\Zapateria6Ciclo\\DBModelZapateria\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\laba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -212,6 +226,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -296,21 +311,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\IRepository\\IRepository.csproj": {
+    "E:\\Zapateria6Ciclo\\IRepository\\IRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\IRepository\\IRepository.csproj",
+        "projectUniqueName": "E:\\Zapateria6Ciclo\\IRepository\\IRepository.csproj",
         "projectName": "IRepository",
-        "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\IRepository\\IRepository.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\IRepository\\obj\\",
+        "projectPath": "E:\\Zapateria6Ciclo\\IRepository\\IRepository.csproj",
+        "packagesPath": "C:\\Users\\laba\\.nuget\\packages\\",
+        "outputPath": "E:\\Zapateria6Ciclo\\IRepository\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\laba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -318,20 +337,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\ConmomModel\\ConmomModel.csproj": {
-                "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\ConmomModel\\ConmomModel.csproj"
+              "E:\\Zapateria6Ciclo\\ConmomModel\\ConmomModel.csproj": {
+                "projectPath": "E:\\Zapateria6Ciclo\\ConmomModel\\ConmomModel.csproj"
               },
-              "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\DBModelZapateria\\DBModelZapateria.csproj": {
-                "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\DBModelZapateria\\DBModelZapateria.csproj"
+              "E:\\Zapateria6Ciclo\\DBModelZapateria\\DBModelZapateria.csproj": {
+                "projectPath": "E:\\Zapateria6Ciclo\\DBModelZapateria\\DBModelZapateria.csproj"
               },
-              "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\RequestRespons\\RequestRespons.csproj": {
-                "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\RequestRespons\\RequestRespons.csproj"
+              "E:\\Zapateria6Ciclo\\RequestRespons\\RequestRespons.csproj": {
+                "projectPath": "E:\\Zapateria6Ciclo\\RequestRespons\\RequestRespons.csproj"
               }
             }
           }
@@ -366,21 +386,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\IService\\IBussniess.csproj": {
+    "E:\\Zapateria6Ciclo\\IService\\IBussniess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\IService\\IBussniess.csproj",
+        "projectUniqueName": "E:\\Zapateria6Ciclo\\IService\\IBussniess.csproj",
         "projectName": "IBussniess",
-        "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\IService\\IBussniess.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\IService\\obj\\",
+        "projectPath": "E:\\Zapateria6Ciclo\\IService\\IBussniess.csproj",
+        "packagesPath": "C:\\Users\\laba\\.nuget\\packages\\",
+        "outputPath": "E:\\Zapateria6Ciclo\\IService\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\laba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -388,20 +412,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\DBModelZapateria\\DBModelZapateria.csproj": {
-                "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\DBModelZapateria\\DBModelZapateria.csproj"
+              "E:\\Zapateria6Ciclo\\DBModelZapateria\\DBModelZapateria.csproj": {
+                "projectPath": "E:\\Zapateria6Ciclo\\DBModelZapateria\\DBModelZapateria.csproj"
               },
-              "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\RequestRespons\\RequestRespons.csproj": {
-                "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\RequestRespons\\RequestRespons.csproj"
+              "E:\\Zapateria6Ciclo\\RequestRespons\\RequestRespons.csproj": {
+                "projectPath": "E:\\Zapateria6Ciclo\\RequestRespons\\RequestRespons.csproj"
               },
-              "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilityAutoMapper\\UtilityAutoMapper.csproj": {
-                "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilityAutoMapper\\UtilityAutoMapper.csproj"
+              "E:\\Zapateria6Ciclo\\UtilityAutoMapper\\UtilityAutoMapper.csproj": {
+                "projectPath": "E:\\Zapateria6Ciclo\\UtilityAutoMapper\\UtilityAutoMapper.csproj"
               }
             }
           }
@@ -478,21 +503,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\Repositori\\Repositori.csproj": {
+    "E:\\Zapateria6Ciclo\\Repositori\\Repositori.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\Repositori\\Repositori.csproj",
+        "projectUniqueName": "E:\\Zapateria6Ciclo\\Repositori\\Repositori.csproj",
         "projectName": "Repositori",
-        "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\Repositori\\Repositori.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\Repositori\\obj\\",
+        "projectPath": "E:\\Zapateria6Ciclo\\Repositori\\Repositori.csproj",
+        "packagesPath": "C:\\Users\\laba\\.nuget\\packages\\",
+        "outputPath": "E:\\Zapateria6Ciclo\\Repositori\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\laba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -500,20 +529,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\DBModelZapateria\\DBModelZapateria.csproj": {
-                "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\DBModelZapateria\\DBModelZapateria.csproj"
+              "E:\\Zapateria6Ciclo\\DBModelZapateria\\DBModelZapateria.csproj": {
+                "projectPath": "E:\\Zapateria6Ciclo\\DBModelZapateria\\DBModelZapateria.csproj"
               },
-              "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\IRepository\\IRepository.csproj": {
-                "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\IRepository\\IRepository.csproj"
+              "E:\\Zapateria6Ciclo\\IRepository\\IRepository.csproj": {
+                "projectPath": "E:\\Zapateria6Ciclo\\IRepository\\IRepository.csproj"
               },
-              "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\RequestRespons\\RequestRespons.csproj": {
-                "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\RequestRespons\\RequestRespons.csproj"
+              "E:\\Zapateria6Ciclo\\RequestRespons\\RequestRespons.csproj": {
+                "projectPath": "E:\\Zapateria6Ciclo\\RequestRespons\\RequestRespons.csproj"
               }
             }
           }
@@ -594,21 +624,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\RequestRespons\\RequestRespons.csproj": {
+    "E:\\Zapateria6Ciclo\\RequestRespons\\RequestRespons.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\RequestRespons\\RequestRespons.csproj",
+        "projectUniqueName": "E:\\Zapateria6Ciclo\\RequestRespons\\RequestRespons.csproj",
         "projectName": "RequestRespons",
-        "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\RequestRespons\\RequestRespons.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\RequestRespons\\obj\\",
+        "projectPath": "E:\\Zapateria6Ciclo\\RequestRespons\\RequestRespons.csproj",
+        "packagesPath": "C:\\Users\\laba\\.nuget\\packages\\",
+        "outputPath": "E:\\Zapateria6Ciclo\\RequestRespons\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\laba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -616,6 +650,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -654,21 +689,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\Service\\Bussniess.csproj": {
+    "E:\\Zapateria6Ciclo\\Service\\Bussniess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\Service\\Bussniess.csproj",
+        "projectUniqueName": "E:\\Zapateria6Ciclo\\Service\\Bussniess.csproj",
         "projectName": "Bussniess",
-        "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\Service\\Bussniess.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\Service\\obj\\",
+        "projectPath": "E:\\Zapateria6Ciclo\\Service\\Bussniess.csproj",
+        "packagesPath": "C:\\Users\\laba\\.nuget\\packages\\",
+        "outputPath": "E:\\Zapateria6Ciclo\\Service\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\laba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -676,26 +715,27 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\IRepository\\IRepository.csproj": {
-                "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\IRepository\\IRepository.csproj"
+              "E:\\Zapateria6Ciclo\\IRepository\\IRepository.csproj": {
+                "projectPath": "E:\\Zapateria6Ciclo\\IRepository\\IRepository.csproj"
               },
-              "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\IService\\IBussniess.csproj": {
-                "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\IService\\IBussniess.csproj"
+              "E:\\Zapateria6Ciclo\\IService\\IBussniess.csproj": {
+                "projectPath": "E:\\Zapateria6Ciclo\\IService\\IBussniess.csproj"
               },
-              "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\Repositori\\Repositori.csproj": {
-                "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\Repositori\\Repositori.csproj"
+              "E:\\Zapateria6Ciclo\\Repositori\\Repositori.csproj": {
+                "projectPath": "E:\\Zapateria6Ciclo\\Repositori\\Repositori.csproj"
               },
-              "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilityAutoMapper\\UtilityAutoMapper.csproj": {
-                "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilityAutoMapper\\UtilityAutoMapper.csproj"
+              "E:\\Zapateria6Ciclo\\UtilityAutoMapper\\UtilityAutoMapper.csproj": {
+                "projectPath": "E:\\Zapateria6Ciclo\\UtilityAutoMapper\\UtilityAutoMapper.csproj"
               },
-              "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilitySecuriry\\UtilitySecuriry.csproj": {
-                "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilitySecuriry\\UtilitySecuriry.csproj"
+              "E:\\Zapateria6Ciclo\\UtilitySecuriry\\UtilitySecuriry.csproj": {
+                "projectPath": "E:\\Zapateria6Ciclo\\UtilitySecuriry\\UtilitySecuriry.csproj"
               }
             }
           }
@@ -740,21 +780,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilityAutoMapper\\UtilityAutoMapper.csproj": {
+    "E:\\Zapateria6Ciclo\\UtilityAutoMapper\\UtilityAutoMapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilityAutoMapper\\UtilityAutoMapper.csproj",
+        "projectUniqueName": "E:\\Zapateria6Ciclo\\UtilityAutoMapper\\UtilityAutoMapper.csproj",
         "projectName": "UtilityAutoMapper",
-        "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilityAutoMapper\\UtilityAutoMapper.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilityAutoMapper\\obj\\",
+        "projectPath": "E:\\Zapateria6Ciclo\\UtilityAutoMapper\\UtilityAutoMapper.csproj",
+        "packagesPath": "C:\\Users\\laba\\.nuget\\packages\\",
+        "outputPath": "E:\\Zapateria6Ciclo\\UtilityAutoMapper\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\laba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -762,17 +806,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\DBModelZapateria\\DBModelZapateria.csproj": {
-                "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\DBModelZapateria\\DBModelZapateria.csproj"
+              "E:\\Zapateria6Ciclo\\DBModelZapateria\\DBModelZapateria.csproj": {
+                "projectPath": "E:\\Zapateria6Ciclo\\DBModelZapateria\\DBModelZapateria.csproj"
               },
-              "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\RequestRespons\\RequestRespons.csproj": {
-                "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\RequestRespons\\RequestRespons.csproj"
+              "E:\\Zapateria6Ciclo\\RequestRespons\\RequestRespons.csproj": {
+                "projectPath": "E:\\Zapateria6Ciclo\\RequestRespons\\RequestRespons.csproj"
               }
             }
           }
@@ -817,21 +862,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilitySecuriry\\UtilitySecuriry.csproj": {
+    "E:\\Zapateria6Ciclo\\UtilitySecuriry\\UtilitySecuriry.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilitySecuriry\\UtilitySecuriry.csproj",
+        "projectUniqueName": "E:\\Zapateria6Ciclo\\UtilitySecuriry\\UtilitySecuriry.csproj",
         "projectName": "UtilitySecuriry",
-        "projectPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilitySecuriry\\UtilitySecuriry.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\DATA\\Alex\\QUINTO CICLO\\INGENIERIA WEB\\Zapateria6Ciclo\\UtilitySecuriry\\obj\\",
+        "projectPath": "E:\\Zapateria6Ciclo\\UtilitySecuriry\\UtilitySecuriry.csproj",
+        "packagesPath": "C:\\Users\\laba\\.nuget\\packages\\",
+        "outputPath": "E:\\Zapateria6Ciclo\\UtilitySecuriry\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\laba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -839,6 +888,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -891,7 +941,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UtilityAutoMapper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7cbe40ee0f5fc7878099aa0aa89c325fccf2badf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70bf7d51b8f911ca7ff28897a46683f6cb9cb0c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("UtilityAutoMapper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UtilityAutoMapper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
