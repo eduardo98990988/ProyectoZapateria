@@ -20,6 +20,10 @@
 mono_crash.*
 
 # Build results
+/BackendZapateria/obj/
+/IService/obj/
+/RequestRespons/obj/
+/Service/obj/
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/

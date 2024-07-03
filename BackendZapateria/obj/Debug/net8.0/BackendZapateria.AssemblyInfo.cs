@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BackendZapateria")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a6ff47bbe46e3f320c8bde22b23caaa06cdf26f")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82d0efa261763105a545d78caaaf1940fcc8fe4e")]
->>>>>>> 8d39ad0634b3ca62010bac5567f32afc81cdc96b
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f05b027a954117346d246b2ad5f0e5a0ee53a839")]
 [assembly: System.Reflection.AssemblyProductAttribute("BackendZapateria")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BackendZapateria")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
