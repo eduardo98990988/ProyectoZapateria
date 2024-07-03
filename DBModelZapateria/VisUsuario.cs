@@ -9,7 +9,6 @@ namespace DBModelZapateria;
 [Keyless]
 public partial class VisUsuario
 {
-    public int IdUsuario { get; set; }
     [StringLength(30)]
     public string Usuario { get; set; } = null!;
 
@@ -19,9 +18,6 @@ public partial class VisUsuario
     [StringLength(50)]
     public string Email { get; set; } = null!;
 
-    [StringLength(25)]
-    public string NombreRol { get; set; } = null!;
-
     [StringLength(50)]
     public string NombrePersona { get; set; } = null!;
 
@@ -30,4 +26,12 @@ public partial class VisUsuario
 
     [StringLength(50)]
     public string? Direccion { get; set; }
+
+    [Column("IRol")]
+    public int Irol { get; set; }
+
+    [StringLength(25)]
+    public string NombreRol { get; set; } = null!;
+
+    public int IdUsuario { get; set; }
 }

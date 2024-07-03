@@ -22,6 +22,16 @@ namespace RequestRespons.Request.T_Empleado
         [StringLength(50)]
         public string NombrePersona { get; set; } = null!;
 
+        public string Usuario1 { get; set; } = null!;
+
+        [StringLength(100)]
+        public string Password { get; set; } = null!;
+
+        [StringLength(50)]
+        public string Email { get; set; } = null!;
+
+        //public bool Estado { get; set; }
+
         [StringLength(30)]
         public string TipoPersona { get; set; } = null!;
 

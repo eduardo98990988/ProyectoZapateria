@@ -7,7 +7,7 @@ namespace BackendZapateria.Controllers.StoreProcedure
     public class ZapatosStoreController
     {
         private readonly string con;
-        public MaterialStoreController(IConfiguration configuration)
+        public ZapatosStoreController(IConfiguration configuration)
         {
             con = configuration.GetConnectionString("conexion");
         }

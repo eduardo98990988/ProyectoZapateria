@@ -17,19 +17,21 @@ namespace BackendZapateria.Controllers.T_Proveedor
     {
         #region Declaracion de Variables
         private readonly IProveedorBussniess _ProveedorBussniess;
+        private readonly IProveedorVBussniess _ProveedorVBussniess;
         private readonly IMapper _mapper;
 
         public ProveedorController(IMapper mapper)
         {
             _mapper = mapper;
             _ProveedorBussniess = new ProveedorBussniess(mapper);
+            _ProveedorVBussniess = new ProveedorVBussniess(mapper);
 
         }
         #endregion Declaracion de Variables
         [HttpGet]
         public IActionResult GetAll()
         {
-            return Ok(_ProveedorBussniess.GetAll());
+            return Ok(_ProveedorVBussniess.GetAll());
         }
         [HttpPost]
         public IActionResult Create([FromBody] RequestProveedor entity)

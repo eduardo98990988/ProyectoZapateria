@@ -9,6 +9,7 @@ namespace IRepository.T_Cliente
 {
     public interface IClienteRepository : ICrudRepository<Cliente>
     {
+        public List<VistCliente> GetAllVist();
         public Cliente buscarCliente(string nombreCliente);
     }
 }

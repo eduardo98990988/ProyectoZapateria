@@ -1,4 +1,5 @@
-﻿using RequestRespons.Response.T_Proveedor;
+﻿using RequestRespons.Response.T_Orden;
+using RequestRespons.Response.T_Proveedor;
 using RequestResponse.Response.T_Persona;
 using RequestResponse.Response.T_Produccion;
 using System;
@@ -11,9 +12,10 @@ namespace RequestRespons.Response.T_SalidaMaterial
 {
     public class ResponseSalidaMaterial
     {
-        public string message { get; set; } = null;
+        public string message { get; set; } = "";
         public List<ResponseVSalidaMaterial> salidaMaterials { get; set; } = new List<ResponseVSalidaMaterial>();
-        public ResponseProduccion produccion { get; set; } = new ResponseProduccion();
+        //public List<ResponseVOrden> ordens { get; set; } = new List<ResponseVOrden>();
+        //public ResponseProduccion produccion { get; set; } = new ResponseProduccion();
 
     }
 }

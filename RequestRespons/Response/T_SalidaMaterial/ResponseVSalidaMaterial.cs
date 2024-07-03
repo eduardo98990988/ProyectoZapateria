@@ -12,19 +12,17 @@ namespace RequestRespons.Response.T_SalidaMaterial
     {
         public int Cantidad { get; set; }
 
-        [Key]
-        public int IdProduccion { get; set; }
-
-        [Key]
         public int IdMaterial { get; set; }
 
-        [Column(TypeName = "datetime")]
-        public DateTime? FechaSalida { get; set; }
+        public int IdProduccion { get; set; }
 
-        public int IdUnidad { get; set; }
+        [StringLength(50)]
+        public string NombreMaterial { get; set; } = null!;
 
-        [Key]
-        public int IdSalidaMaterial { get; set; }
+        [StringLength(50)]
+        public string? Estado { get; set; }
+
+        public int Stock { get; set; }
 
         //[ForeignKey("IdMaterial")]
         //[InverseProperty("SalidaMaterials")]

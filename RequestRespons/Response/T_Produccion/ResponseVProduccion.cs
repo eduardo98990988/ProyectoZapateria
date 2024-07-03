@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RequestResponse.Response.T_Produccion
 {
@@ -12,6 +7,10 @@ namespace RequestResponse.Response.T_Produccion
     {
         [Key]
         public int IdProduccion { get; set; }
+        public int CantidadProduccion { get; set; }
+
+        [StringLength(50)]
+        public string? Descripcion { get; set; }
 
         public int Meta { get; set; }
 
@@ -21,12 +20,14 @@ namespace RequestResponse.Response.T_Produccion
         [StringLength(20)]
         public string EstadoProduccion { get; set; } = null!;
 
-        public int? CantidadFaltante { get; set; }
-
-        public int IdUnidad { get; set; }
-
         [Column(TypeName = "datetime")]
         public DateTime? FechaFin { get; set; }
+
+        [StringLength(40)]
+        public string? NombreProd { get; set; }
+
+        [StringLength(20)]
+        public string? CodigoProd { get; set; }
 
         //[InverseProperty("IdProduccionNavigation")]
         //public virtual ICollection<DetalleProduccion> DetalleProduccions { get; set; } = new List<DetalleProduccion>();

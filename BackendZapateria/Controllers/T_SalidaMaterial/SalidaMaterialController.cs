@@ -16,24 +16,26 @@ namespace BackendZapateria.Controllers.T_SalidaMaterial
     {
         #region Declaracion de Variables
         private readonly ISalidaMaterialBussniess _SalidaMaterialBussniess;
+        private readonly ISalidaVMaterialBussniess _SalidaVMaterialBussniess;
         private readonly IMapper _mapper;
 
         public SalidaMaterialController(IMapper mapper)
         {
             _mapper = mapper;
             _SalidaMaterialBussniess = new SalidaMaterialBussniess(mapper);
+            _SalidaVMaterialBussniess = new SalidaVMaterialBussniess(mapper);
 
         }
         #endregion Declaracion de Variables
         [HttpGet]
         public IActionResult GetAll()
         {
-            return Ok(_SalidaMaterialBussniess.GetAll());
+            return Ok(_SalidaVMaterialBussniess.GetAll());
         }
         [HttpPost]
-        public IActionResult Create([FromBody] RequestSalidaMaterial entity)
+        public IActionResult Create([FromBody] RequestVSalIdaMaterial entity)
         {
-            return Ok(_SalidaMaterialBussniess.Create(entity));
+            return Ok(_SalidaVMaterialBussniess.Create(entity));
         }
         [HttpPost("filter")]
         public IActionResult GetByFilter([FromBody]RequestFilterGeneric request)

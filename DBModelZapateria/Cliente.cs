@@ -14,13 +14,14 @@ public partial class Cliente
 
     public int IdPersona { get; set; }
 
-    [StringLength(50)]
-    public string NombreCliente { get; set; } = null!;
-
     [Column(TypeName = "datetime")]
     public DateTime? FechaNacimiento { get; set; }
 
     public bool Estado { get; set; }
+
+    [StringLength(50)]
+    [Unicode(false)]
+    public string? NombreCliente { get; set; }
 
     [InverseProperty("IdClienteNavigation")]
     public virtual ICollection<Credito> Creditos { get; set; } = new List<Credito>();

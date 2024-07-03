@@ -10,5 +10,6 @@ namespace IRepository.T_Empleado
     public interface  IEmpleadoRepository : ICrudRepository<Empleado>
     {
         public Empleado BuscarEmpleado(string nombreEmpleado);
+        public List<VistEmpleado> GetAllVist();
     }
 }

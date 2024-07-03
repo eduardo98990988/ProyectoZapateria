@@ -18,7 +18,7 @@ namespace RequestRespons.Request.T_Cliente
         [Column(TypeName = "datetime")]
         public DateTime? FechaNacimiento { get; set; } 
 
-        public bool Estado { get; set; }
+        //public bool Estado { get; set; }
         [StringLength(50)]
         public string NombrePersona { get; set; } = null!;
 

@@ -10,12 +10,16 @@ namespace RequestRespons.Response.T_Orden
 {
     public class ResponseVOrden
     {
-        [Key]
         public int IdOrden { get; set; }
 
+        public int IdProducto { get; set; }
+
+        public string? CodigoOrden { get; set; }
+
+        [StringLength(40)]
+        public string? NombreProd { get; set; }
         [Column(TypeName = "datetime")]
         public DateTime FechaOrden { get; set; }
-
         [Column(TypeName = "datetime")]
         public DateTime? FechaRequerido { get; set; }
 
@@ -24,9 +28,19 @@ namespace RequestRespons.Response.T_Orden
 
         public int IdCliente { get; set; }
 
-        public bool TipoOrden { get; set; }
+        [StringLength(50)]
 
-        public int IdEmpleado { get; set; }
+        public string? NombreCliente { get; set; }
+
+        [Column(TypeName = "money")]
+        public decimal? PrecioUnitario { get; set; }
+        public double? MontoTotal { get; set; }
+
+        public int Cantidad { get; set; }
+
+        [StringLength(20)]
+        public string? Categoria { get; set; }
+
 
         //[InverseProperty("IdOrdenNavigation")]
         //public virtual ICollection<DetalleCredio> DetalleCredios { get; set; } = new List<DetalleCredio>();

@@ -30,4 +30,6 @@ public partial class VistProduccion
 
     [StringLength(20)]
     public string? CodigoProd { get; set; }
+
+    public int IdProduccion { get; set; }
 }

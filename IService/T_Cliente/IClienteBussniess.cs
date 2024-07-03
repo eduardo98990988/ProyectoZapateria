@@ -1,4 +1,5 @@
-﻿using RequestRespons.Request.T_Cliente;
+﻿using DBModelZapateria;
+using RequestRespons.Request.T_Cliente;
 using RequestRespons.Response.T_Cliente;
 using System;
 using System.Collections.Generic;
@@ -10,5 +11,6 @@ namespace IBussniess.T_Cliente
 {
     public interface IClienteBussniess : ICrudBussniess<RequestCliente,ResponseVCliente>
     {
+        public List<VistCliente> GetAllVist();
     }
 }

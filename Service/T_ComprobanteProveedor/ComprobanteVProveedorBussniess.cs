@@ -14,6 +14,7 @@ namespace Bussniess.T_ComprobanteProveedor
     public class ComprobanteVProveedorBussniess : IComprobanteVProveedorBussniess
     {
 
+
         public ResponseComprobanteProveedor Create(RequestVComprobanteProveedor entity)
         {
 

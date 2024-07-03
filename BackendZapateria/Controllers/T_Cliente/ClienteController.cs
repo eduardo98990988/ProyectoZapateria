@@ -16,24 +16,26 @@ namespace BackendZapateria.Controllers.T_Cliente
     {
         #region Declaracion de Variables
         private readonly IClienteBussniess _ClienteBussniess;
+        private readonly IClienteVBussniess _ClienteVBussniess;
         private readonly IMapper _mapper;
 
         public ClienteController(IMapper mapper)
         {
             _mapper = mapper;
             _ClienteBussniess = new ClienteBussniess(mapper);
+            _ClienteVBussniess = new ClienteVBussniess(mapper);
 
         }
         #endregion Declaracion de Variables
         [HttpGet]
         public IActionResult GetAll()
         {
-            return Ok(_ClienteBussniess.GetAll());
+            return Ok(_ClienteVBussniess.GetAll());
         }
         [HttpPost]
-        public IActionResult Create([FromBody] RequestCliente entity)
+        public IActionResult Create([FromBody] RequestVCliente entity)
         {
-            return Ok(_ClienteBussniess.Create(entity));
+            return Ok(_ClienteVBussniess.Create(entity));
         }
         [HttpPut]
         public IActionResult Update([FromBody] RequestCliente entity)

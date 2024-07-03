@@ -3,6 +3,7 @@ using Bussniess.T_Empleado;
 using IBussniess.T_Empleado;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using RequestRespons.Request.T_Empleado;
 using RequestResponse.Request;
 using RequestResponse.Request.T_Empleado;
 using RequestResponse.Response;
@@ -16,24 +17,26 @@ namespace BackendZapateria.Controllers.T_Empleado
     {
         #region Declaracion de Variables
         private readonly IEmpleadoBussniess _EmpleadoBussniess;
+        private readonly IEmpleadoVBussniess _EmpleadoVBussniess;
         private readonly IMapper _mapper;
 
         public EmpleadoController(IMapper mapper)
         {
             _mapper = mapper;
             _EmpleadoBussniess = new EmpleadoBussniess(mapper);
+            _EmpleadoVBussniess = new EmpleadoVBussniess(mapper);
 
         }
         #endregion Declaracion de Variables
         [HttpGet]
         public IActionResult GetAll()
         {
-            return Ok(_EmpleadoBussniess.GetAll());
+            return Ok(_EmpleadoVBussniess.GetAll());
         }
         [HttpPost]
-        public IActionResult Create([FromBody] RequestEmpleado entity)
+        public IActionResult Create([FromBody] RequestVEmpleado entity)
         {
-            return Ok(_EmpleadoBussniess.Create(entity));
+            return Ok(_EmpleadoVBussniess.Create(entity));
         }
         [HttpPost("filter")]
         public IActionResult GetByFilter([FromBody] RequestFilterGeneric request)

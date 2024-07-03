@@ -1,13 +1,17 @@
 ﻿using AutoMapper;
 using Bussniess.T_Persona;
+using DBModelZapateria;
 using IBussniess.T_Cliente;
 using IBussniess.T_Persona;
+using IRepository.T_Cliente;
+using Repositori.T_Cliente;
 using RequestRespons.Request.T_Cliente;
 using RequestRespons.Response.T_Cliente;
 using RequestResponse.Request;
 using RequestResponse.Request.T_Persona;
 using RequestResponse.Response;
 using RequestResponse.Response.T_Persona;
+using RequestResponse.Response.T_Usuario;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +25,7 @@ namespace Bussniess.T_Cliente
         #region Declaracion de Variables
 
         private readonly IPersonaBussniess _personaBussniess;
+        private readonly IClienteVRepository _clienteVRepository;
         private readonly IClienteBussniess _clienteBussniess;
         private readonly IMapper _mapper;
 
@@ -29,17 +34,23 @@ namespace Bussniess.T_Cliente
             _mapper = mapper;
             _personaBussniess = new PersonaBussniess(mapper);
             _clienteBussniess = new ClienteBussniess(mapper);
+
+            _clienteVRepository = new ClienteVRepository();
         }
         #endregion Fin Declaracion de Variables
         #region Crud
         public ResponseCliente Create(RequestVCliente entity)
         {
             ResponseCliente respClietne = new ResponseCliente();
-            RequestPersona responsPerosna = _mapper.Map<RequestPersona>(entity);
-            ResponsePersona requestPersona = _personaBussniess.Create(responsPerosna);
+            RequestPersona requPerosna = _mapper.Map<RequestPersona>(entity);
+            ResponsePersona responsPerosna = _personaBussniess.Create(requPerosna);
 
-            responsPerosna.IdPersona = entity.IdPersona;
             RequestCliente requCliente = _mapper.Map<RequestCliente>(responsPerosna);
+            requCliente.Estado = true;
+            responsPerosna.IdPersona = requCliente.IdPersona;
+            requCliente.IdPersona = responsPerosna.IdPersona;
+            requCliente.FechaNacimiento = entity.FechaNacimiento;
+            requCliente.NombreCliente = entity.NombrePersona;
             ResponseVCliente responseVCliente = _clienteBussniess.Create(requCliente);
 
             ResponseCliente responseCliente = _mapper.Map<ResponseCliente>(responseVCliente);
@@ -70,7 +81,16 @@ namespace Bussniess.T_Cliente
 
         public List<ResponseCliente> GetAll()
         {
-            throw new NotImplementedException();
+            List<ResponseCliente> response = new List<ResponseCliente>();
+            ResponseCliente cliente = new ResponseCliente();
+
+            cliente.clientes = new List<ResponseVCliente>();
+
+            List<VistCliente> vistCliente = _clienteVRepository.GetAll();
+            cliente.clientes = _mapper.Map<List<ResponseVCliente>>(vistCliente);
+            cliente.message = "Lista de los Clientes";
+            response.Add(cliente);
+            return response;
         }
 
         public ReponseFilterGeneric<ResponseCliente> GetByFilter(RequestFilterGeneric request)

@@ -5,13 +5,17 @@ using IBussniess.T_Material;
 using IBussniess.T_SalidaMaterial;
 using IRepository.T_Material;
 using IRepository.T_Produccion;
+using IRepository.T_SalidaMaterial;
 using IRepository.T_Unidad;
 using Repositori.T_Material;
 using Repositori.T_Produccion;
+using Repositori.T_SalidaMaterial;
 using Repositori.T_Unidad;
 using RequestRespons.Request.T_Material;
 using RequestRespons.Request.T_SalidaMaterial;
 using RequestRespons.Response.T_Material;
+using RequestRespons.Response.T_Orden;
+using RequestRespons.Response.T_Proveedor;
 using RequestRespons.Response.T_SalidaMaterial;
 using RequestResponse.Request;
 using RequestResponse.Response;
@@ -30,16 +34,18 @@ namespace Bussniess.T_SalidaMaterial
         private readonly IMaterialBussniess _materialBussniess;
         private readonly IUnidadRespository _unidadRespository;
         private readonly IMaterialRepository _materialRepository;
+        private readonly ISalidaMaterialVRepository _SalidaMaterialVRepository;
         private readonly IProduccionRepository _produccionRepository;
         private readonly IMapper _mapper;
 
         public SalidaVMaterialBussniess (IMapper mapper)
         {
-            _mapper = _mapper;
+            _mapper = mapper;
             _salidaMaterialBussniess = new SalidaMaterialBussniess(mapper);
             _materialBussniess = new MaterialBussniess(mapper);
             _unidadRespository = new UnidadRepository();
             _materialRepository = new MaterialRepository();
+            _SalidaMaterialVRepository = new SalidaMaterialVRepository();
             _produccionRepository = new ProduccionRepository();
 
         }
@@ -132,7 +138,15 @@ namespace Bussniess.T_SalidaMaterial
 
         public List<ResponseSalidaMaterial> GetAll()
         {
-            throw new NotImplementedException();
+            List<ResponseSalidaMaterial> responseOrdens = new List<ResponseSalidaMaterial>();
+            ResponseSalidaMaterial response = new ResponseSalidaMaterial();
+            response.salidaMaterials = new List<ResponseVSalidaMaterial>();
+
+            List<VistSalidaMaterial> vistOrdens = _SalidaMaterialVRepository.GetAll();
+            response.salidaMaterials = _mapper.Map<List<ResponseVSalidaMaterial>>(vistOrdens);
+            response.message = "Lista de Ordenes de la empresa";
+            responseOrdens.Add(response);
+            return responseOrdens;
         }
 
         public ReponseFilterGeneric<ResponseSalidaMaterial> GetByFilter(RequestFilterGeneric request)

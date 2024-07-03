@@ -11,7 +11,7 @@ namespace RequestRespons.Response.T_Proveedor
     {
         public string message { get; set; } = null;
         public List<ResponseVProveedor> proveedors { get; set; } = new List<ResponseVProveedor>();
-        public ResponsePersona persona { get; set; } = new ResponsePersona(); 
+        //public ResponsePersona persona { get; set; } = new ResponsePersona(); 
 
 
     }

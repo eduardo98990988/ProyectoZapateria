@@ -1,12 +1,16 @@
 ﻿using AutoMapper;
 using DBModelZapateria;
 using IBussniess.T_Producto;
+using IRepository.T_DetalleProducto;
 using IRepository.T_Producto;
+using Repositori.T_DetalleProducto;
 using Repositori.T_Producto;
 using RequestRespons.Request.T_Producto;
+using RequestRespons.Response.T_DetalleProducto;
 using RequestRespons.Response.T_Producto;
 using RequestResponse.Request;
 using RequestResponse.Response;
+using RequestResponse.Response.T_Rol;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,12 +24,15 @@ namespace Bussniess.T_Producto
         #region Inyeccion de Dependencias
 
         private readonly IProductoRepository _ProductoRepository;
+        private readonly IDetalleProductoRepository _detalleProductoRepository;
+
         private readonly IMapper _mapper;
 
         public ProductoBussniess(IMapper mapper)
         {
             _mapper = mapper;
             _ProductoRepository = new ProductoRepository();
+            _detalleProductoRepository = new DetalleRepository();
 
         }
 
@@ -68,7 +75,8 @@ namespace Bussniess.T_Producto
 
         public ReponseFilterGeneric<ResponseVProducto> GetByFilter(RequestFilterGeneric request)
         {
-            throw new NotImplementedException();
+            ReponseFilterGeneric<ResponseVProducto> response = _mapper.Map<ReponseFilterGeneric<ResponseVProducto>>(_ProductoRepository.GetByFilter(request));
+            return response;
         }
 
         public ResponseVProducto GetById(object id)
@@ -78,7 +86,17 @@ namespace Bussniess.T_Producto
             return ResponseVProducto;
 
         }
+        public ResponseDetalleProducto GetDetalleProducto(int id)
+        {
+            DetalleProducto detalleProducto = _detalleProductoRepository.buscarDetalle(id);
 
+            ResponseVDetalleProducto responseVDetalleProducto = _mapper.Map<ResponseVDetalleProducto>(detalleProducto);
+            ResponseDetalleProducto responseDetalleProducto = _mapper.Map<ResponseDetalleProducto>(responseVDetalleProducto);
+            responseDetalleProducto.Message = "Detalle del Producto";
+            responseDetalleProducto.detalleProducts.Add(responseVDetalleProducto);
+
+            return responseDetalleProducto;
+        }
         public ResponseVProducto Update(RequestProducto entity)
         {
             Producto Producto = _mapper.Map<Producto>(entity);

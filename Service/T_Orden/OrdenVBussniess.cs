@@ -3,8 +3,10 @@ using DBModelZapateria;
 using IBussniess.T_Orden;
 using IRepository.T_Cliente;
 using IRepository.T_Empleado;
+using IRepository.T_Orden;
 using Repositori.T_Cliente;
 using Repositori.T_Empleado;
+using Repositori.T_Orden;
 using RequestRespons.Request.T_Orden;
 using RequestRespons.Response.T_Orden;
 using RequestResponse.Request;
@@ -21,6 +23,7 @@ namespace Bussniess.T_Orden
     {
         private readonly IOrdenBussniess _ordenBussniess;
         private readonly IClienteRepository _clienteRepository;
+        private readonly IOrdenVRepository _ordenVRepository;
         private readonly IEmpleadoRepository _empleadoRepository;
         private readonly IMapper _mapper;
 
@@ -28,6 +31,7 @@ namespace Bussniess.T_Orden
         {
             _mapper = mapper;
             _clienteRepository = new ClienteRepository();
+            _ordenVRepository = new OrdenVRepository();
             _empleadoRepository = new EmpleadoRepository();
             _ordenBussniess = new OrdenBussniess(mapper);
         }
@@ -79,7 +83,17 @@ namespace Bussniess.T_Orden
 
         public List<ResponseOrden> GetAll()
         {
-            throw new NotImplementedException();
+            List<ResponseOrden> responseOrdens = new List<ResponseOrden>();
+            ResponseOrden response = new ResponseOrden();
+            response.ordens = new List<ResponseVOrden>();
+
+            List<VistOrden> vistOrdens = _ordenVRepository.GetAll();
+            response.ordens = _mapper.Map<List<ResponseVOrden>>(vistOrdens);
+            response.message = "Lista de Ordenes de la empresa";
+            responseOrdens.Add(response);
+            return responseOrdens;
+
+
         }
 
         public ReponseFilterGeneric<ResponseOrden> GetByFilter(RequestFilterGeneric request)

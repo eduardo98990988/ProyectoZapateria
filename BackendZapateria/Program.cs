@@ -1,3 +1,4 @@
+using ApiWeb.Middleware.Error;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
@@ -68,6 +69,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseMiddleware(typeof(ApiMiddleware));
+
 app.UseCors("origins");
 app.MapControllers();
 

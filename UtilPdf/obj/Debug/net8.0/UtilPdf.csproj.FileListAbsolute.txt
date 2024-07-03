@@ -10,3 +10,16 @@ D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilPdf\obj\Debug\net8
 D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilPdf\obj\Debug\net8.0\refint\UtilPdf.dll
 D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilPdf\obj\Debug\net8.0\UtilPdf.pdb
 D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\UtilPdf\obj\Debug\net8.0\ref\UtilPdf.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\UtilPdf\bin\Debug\net8.0\UtilPdf.deps.json
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\UtilPdf\bin\Debug\net8.0\UtilPdf.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\UtilPdf\bin\Debug\net8.0\UtilPdf.pdb
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\UtilPdf\obj\Debug\net8.0\UtilPdf.csproj.AssemblyReference.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\UtilPdf\obj\Debug\net8.0\UtilPdf.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\UtilPdf\obj\Debug\net8.0\UtilPdf.AssemblyInfoInputs.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\UtilPdf\obj\Debug\net8.0\UtilPdf.AssemblyInfo.cs
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\UtilPdf\obj\Debug\net8.0\UtilPdf.csproj.CoreCompileInputs.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\UtilPdf\obj\Debug\net8.0\UtilPdf.sourcelink.json
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\UtilPdf\obj\Debug\net8.0\UtilPdf.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\UtilPdf\obj\Debug\net8.0\refint\UtilPdf.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\UtilPdf\obj\Debug\net8.0\UtilPdf.pdb
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\UtilPdf\obj\Debug\net8.0\ref\UtilPdf.dll

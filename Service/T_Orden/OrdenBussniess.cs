@@ -66,6 +66,12 @@ namespace Bussniess.T_Orden
 
         }
 
+        public List<VistOrden> GetAllVist()
+        {
+            List<VistOrden> vistEmpleado = _OrdenRepository.GetAllVist();
+            return vistEmpleado;
+        }
+
         public ReponseFilterGeneric<ResponseVOrden> GetByFilter(RequestFilterGeneric request)
         {
             throw new NotImplementedException();

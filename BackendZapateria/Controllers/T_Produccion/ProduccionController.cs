@@ -16,19 +16,21 @@ namespace BackendZapateria.Controllers.T_Produccion
     {
         #region Declaracion de Variables
         private readonly IProduccionBussniess _ProduccionBussniess;
+        private readonly IProduccionVBussniess _ProduccioVBussniess;
         private readonly IMapper _mapper;
 
         public ProduccionController(IMapper mapper)
         {
             _mapper = mapper;
             _ProduccionBussniess = new ProduccionBussniess(mapper);
+            _ProduccioVBussniess = new ProduccionVBussniess(mapper);
 
         }
         #endregion Declaracion de Variables
         [HttpGet]
         public IActionResult GetAll()
         {
-            return Ok(_ProduccionBussniess.GetAll());
+            return Ok(_ProduccioVBussniess.GetAll());
         }
         [HttpPost]
         public IActionResult Create([FromBody] RequestProduccion entity)

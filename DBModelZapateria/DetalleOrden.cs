@@ -30,6 +30,8 @@ public partial class DetalleOrden
     [Key]
     public int IdDetalleOrden { get; set; }
 
+    public double? MontoTotal { get; set; }
+
     [ForeignKey("IdOrden")]
     [InverseProperty("DetalleOrdens")]
     public virtual Orden IdOrdenNavigation { get; set; } = null!;

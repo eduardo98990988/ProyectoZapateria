@@ -9,3 +9,15 @@ D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\InService\obj\Debug\ne
 D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\InService\obj\Debug\net8.0\refint\InService.dll
 D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\InService\obj\Debug\net8.0\InService.pdb
 D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\BackendZapateria\InService\obj\Debug\net8.0\ref\InService.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\InService\bin\Debug\net8.0\InService.deps.json
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\InService\bin\Debug\net8.0\InService.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\InService\bin\Debug\net8.0\InService.pdb
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\InService\obj\Debug\net8.0\InService.GeneratedMSBuildEditorConfig.editorconfig
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\InService\obj\Debug\net8.0\InService.AssemblyInfoInputs.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\InService\obj\Debug\net8.0\InService.AssemblyInfo.cs
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\InService\obj\Debug\net8.0\InService.csproj.CoreCompileInputs.cache
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\InService\obj\Debug\net8.0\InService.sourcelink.json
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\InService\obj\Debug\net8.0\InService.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\InService\obj\Debug\net8.0\refint\InService.dll
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\InService\obj\Debug\net8.0\InService.pdb
+D:\DATA\Alex\QUINTO CICLO\INGENIERIA WEB\Zapateria6Ciclo\InService\obj\Debug\net8.0\ref\InService.dll

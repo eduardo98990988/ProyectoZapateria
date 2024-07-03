@@ -69,6 +69,12 @@ namespace Bussniess.T_Cliente
             return ResponseVCliente;
         }
 
+        public List<VistCliente> GetAllVist()
+        {
+            List<VistCliente> vistCliente = _ClienteRepository.GetAllVist();
+            return vistCliente;
+        }
+
         public ReponseFilterGeneric<ResponseVCliente> GetByFilter(RequestFilterGeneric request)
         {
             throw new NotImplementedException();

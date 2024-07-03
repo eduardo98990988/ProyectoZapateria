@@ -12,9 +12,6 @@ public partial class Orden
     [Key]
     public int IdOrden { get; set; }
 
-    [StringLength(50)]
-    public string CodigoOrden { get; set; } = null!;  //IDOrden
-
     [Column(TypeName = "datetime")]
     public DateTime FechaOrden { get; set; }
 
@@ -29,6 +26,10 @@ public partial class Orden
     public bool TipoOrden { get; set; }
 
     public int IdEmpleado { get; set; }
+
+    [StringLength(5)]
+    [Unicode(false)]
+    public string? CodigoOrden { get; set; }
 
     [InverseProperty("IdOrdenNavigation")]
     public virtual ICollection<DetalleCredio> DetalleCredios { get; set; } = new List<DetalleCredio>();

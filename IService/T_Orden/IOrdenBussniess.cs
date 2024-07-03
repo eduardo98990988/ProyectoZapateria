@@ -1,4 +1,5 @@
-﻿using RequestRespons.Request.T_Orden;
+﻿using DBModelZapateria;
+using RequestRespons.Request.T_Orden;
 using RequestRespons.Response.T_Orden;
 using System;
 using System.Collections.Generic;
@@ -10,5 +11,6 @@ namespace IBussniess.T_Orden
 {
     public interface IOrdenBussniess : ICrudBussniess<RequestOrden,ResponseVOrden>
     {
+        public List<VistOrden> GetAllVist();
     }
 }

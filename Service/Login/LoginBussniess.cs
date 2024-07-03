@@ -47,7 +47,7 @@ namespace Bussniess.Login
                 result.Mensaje = "Loguin Correcto";
 
                 result.VWUsuario = new ResponseVUsuario();
-                result.VWUsuario.Usuario1 = vistUsuario.Usuario;
+                result.VWUsuario.Usuario = vistUsuario.Usuario;
                 result.VWUsuario.IdUsuario = vistUsuario.IdUsuario;
                 result.nameRol = vistUsuario.NombreRol;
                 result.Persona = new ResponsePersona();

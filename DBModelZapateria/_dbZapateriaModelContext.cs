@@ -67,9 +67,21 @@ public partial class _dbZapateriaModelContext : DbContext
 
     public virtual DbSet<Usuario> Usuarios { get; set; }
 
+    public virtual DbSet<VisProveedor> VisProveedors { get; set; }
+
     public virtual DbSet<VisUsuario> VisUsuarios { get; set; }
 
+    public virtual DbSet<VistCliente> VistClientes { get; set; }
+
+    public virtual DbSet<VistEmpleado> VistEmpleados { get; set; }
+
+    public virtual DbSet<VistIngresoProducto> VistIngresoProductos { get; set; }
+
+    public virtual DbSet<VistOrden> VistOrdens { get; set; }
+
     public virtual DbSet<VistProduccion> VistProduccions { get; set; }
+
+    public virtual DbSet<VistSalidaMaterial> VistSalidaMaterials { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
@@ -283,6 +295,8 @@ public partial class _dbZapateriaModelContext : DbContext
         {
             entity.HasKey(e => e.IdOrden).HasName("XPKOrden");
 
+            entity.Property(e => e.CodigoOrden).IsFixedLength();
+
             entity.HasOne(d => d.IdClienteNavigation).WithMany(p => p.Ordens)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("R_74");
@@ -375,14 +389,46 @@ public partial class _dbZapateriaModelContext : DbContext
                 .HasConstraintName("R_124");
         });
 
+        modelBuilder.Entity<VisProveedor>(entity =>
+        {
+            entity.ToView("VisProveedor");
+        });
+
         modelBuilder.Entity<VisUsuario>(entity =>
         {
             entity.ToView("VisUsuario");
         });
 
+        modelBuilder.Entity<VistCliente>(entity =>
+        {
+            entity.ToView("VistCliente");
+        });
+
+        modelBuilder.Entity<VistEmpleado>(entity =>
+        {
+            entity.ToView("VistEmpleado");
+        });
+
+        modelBuilder.Entity<VistIngresoProducto>(entity =>
+        {
+            entity.ToView("VistIngresoProducto");
+        });
+
+        modelBuilder.Entity<VistOrden>(entity =>
+        {
+            entity.ToView("VistOrden");
+
+            entity.Property(e => e.CodigoOrden).IsFixedLength();
+        });
+
         modelBuilder.Entity<VistProduccion>(entity =>
         {
             entity.ToView("VistProduccion");
+        });
+
+        modelBuilder.Entity<VistSalidaMaterial>(entity =>
+        {
+            entity.ToView("VistSalidaMaterial");
         });
 
         OnModelCreatingPartial(modelBuilder);

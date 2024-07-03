@@ -5,6 +5,9 @@ using DBModelZapateria;
 using IBussniess.Login;
 using IBussniess.T_Persona;
 using IBussniess.T_Usuario;
+using IRepository.T_Usuario;
+using Repositori.T_Usuario;
+using RequestRespons.Response.T_Orden;
 using RequestResponse.Request;
 using RequestResponse.Request.T_Persona;
 using RequestResponse.Request.T_Usuario;
@@ -26,6 +29,7 @@ namespace Bussniess.T_Usuario
         private readonly IUsuarioBussniess _usuarioBussniess;
         private readonly ILoginBussniess _loginBussniess;
         private readonly IPersonaBussniess _personaBussniess;
+        private readonly IUsuarioVRepository _usuarioVRepository;
         private readonly UtilEncriptarDesencriptar _cripto;
         private readonly IMapper _mapper; 
 
@@ -34,6 +38,7 @@ namespace Bussniess.T_Usuario
             _mapper = mapper;
             _personaBussniess = new PersonaBussniess(mapper);
             _loginBussniess = new LoginBussniess(mapper);
+            _usuarioVRepository = new UsuarioVRepository();
             _usuarioBussniess = new UsuarioBussniess(mapper);
             _cripto = new UtilEncriptarDesencriptar();
         }
@@ -102,7 +107,16 @@ namespace Bussniess.T_Usuario
 
         public List<ResponseUsuario> GetAll()
         {
-            throw new NotImplementedException();
+
+            List<ResponseUsuario> responseOrdens = new List<ResponseUsuario>();
+            ResponseUsuario response = new ResponseUsuario();
+            response.usuarios = new List<ResponseVUsuario>();
+
+            List<VisUsuario> vistOrdens = _usuarioVRepository.GetAll();
+            response.usuarios = _mapper.Map<List<ResponseVUsuario>>(vistOrdens);
+            response.message = "Lista de Ordenes de la empresa";
+            responseOrdens.Add(response);
+            return responseOrdens;
         }
 
         public ReponseFilterGeneric<ResponseUsuario> GetByFilter(RequestFilterGeneric request)

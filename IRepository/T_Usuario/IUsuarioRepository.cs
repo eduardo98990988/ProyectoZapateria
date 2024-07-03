@@ -10,5 +10,6 @@ namespace IRepository.T_Usuario
     public interface IUsuarioRepository : ICrudRepository<Usuario>
     {
         public VisUsuario ObtenerUsuario(string username);
+        public List<VisUsuario> GetAllVist();
     }
 }

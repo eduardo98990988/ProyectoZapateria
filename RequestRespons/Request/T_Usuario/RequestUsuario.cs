@@ -14,6 +14,8 @@ namespace RequestResponse.Request.T_Usuario
         [Key]
         public int IdUsuario { get; set; }
 
+   
+
         [Key]
         public int IdPersona { get; set; }
 

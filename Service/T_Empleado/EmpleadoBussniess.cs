@@ -64,7 +64,11 @@ namespace Bussniess.T_Empleado
             List<ResponseVEmpleado> ResponseVEmpleado = _mapper.Map<List<ResponseVEmpleado>>(Empleado);
             return ResponseVEmpleado;
         }
-
+        public List<VistEmpleado>GetAllVist()
+        {
+            List<VistEmpleado> vistEmpleado = _EmpleadoRepository.GetAllVist();
+            return vistEmpleado;
+        }
         public ReponseFilterGeneric<ResponseVEmpleado> GetByFilter(RequestFilterGeneric request)
         {
             throw new NotImplementedException();

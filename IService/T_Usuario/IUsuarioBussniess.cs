@@ -1,4 +1,5 @@
-﻿using RequestResponse.Request.T_Usuario;
+﻿using DBModelZapateria;
+using RequestResponse.Request.T_Usuario;
 using RequestResponse.Response.T_Usuario;
 using System;
 using System.Collections.Generic;
@@ -10,5 +11,6 @@ namespace IBussniess.T_Usuario
 {
     public interface IUsuarioBussniess : ICrudBussniess<RequestUsuario,ResponseVUsuario>
     {
+        public List<VisUsuario> GetAllVist();
     }
 }

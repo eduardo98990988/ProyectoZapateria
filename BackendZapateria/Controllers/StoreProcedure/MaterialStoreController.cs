@@ -40,9 +40,9 @@ namespace BackendZapateria.Controllers.StoreProcedure
                                 //Descripcion = reader["Descripcion"].ToString(),
                                 //FechaCreacion = Convert.ToDateTime(reader["FechaCreacion"])
                                 IdMaterial = Convert.ToInt32(reader["IdMaterial"]),
-                                NombreMaterial = reader["NombreProd"].ToString(),
-                                Estado = reader["NombreProd"].ToString(),
-                                Stock = Convert.ToInt32(reader["IdMaterial"])
+                                NombreMaterial = reader["NombreMaterial"].ToString(),
+                                Estado = reader["Estado"].ToString(),
+                                Stock = Convert.ToInt32(reader["Stock"])
                             };
 
                             materiales.Add(p);

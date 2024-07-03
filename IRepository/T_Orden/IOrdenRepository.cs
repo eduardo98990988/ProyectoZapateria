@@ -10,5 +10,6 @@ namespace IRepository.T_Orden
     public interface IOrdenRepository : ICrudRepository<Orden>
     {
         Orden buscarCodigoOrden(string codigoOrden);
+        public List<VistOrden> GetAllVist();
     }
 }

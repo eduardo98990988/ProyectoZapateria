@@ -1,4 +1,5 @@
 ﻿using RequestRespons.Request.T_Producto;
+using RequestRespons.Response.T_DetalleProducto;
 using RequestRespons.Response.T_Producto;
 using System;
 using System.Collections.Generic;
@@ -10,5 +11,6 @@ namespace IBussniess.T_Producto
 {
     public interface IProductoBussniess : ICrudBussniess<RequestProducto,ResponseVProducto>
     {
+        public ResponseDetalleProducto GetDetalleProducto(int id);
     }
 }

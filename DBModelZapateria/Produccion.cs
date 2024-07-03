@@ -12,10 +12,6 @@ public partial class Produccion
     [Key]
     public int IdProduccion { get; set; }
 
-    [StringLength(20)]
-
-    public string CodigoProduccion { get; set; } = null!;
-
     public int Meta { get; set; }
 
     [Column(TypeName = "datetime")]
@@ -30,6 +26,9 @@ public partial class Produccion
 
     [Column(TypeName = "datetime")]
     public DateTime? FechaFin { get; set; }
+
+    [StringLength(50)]
+    public string? CodigoProduccion { get; set; }
 
     [InverseProperty("IdProduccionNavigation")]
     public virtual ICollection<DetalleProduccion> DetalleProduccions { get; set; } = new List<DetalleProduccion>();

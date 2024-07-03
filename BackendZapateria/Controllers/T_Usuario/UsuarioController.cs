@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Bussniess.Login;
 using Bussniess.T_Usuario;
+using DBModelZapateria;
 using IBussniess.Login;
 using IBussniess.T_Usuario;
 using Microsoft.AspNetCore.Http;
@@ -37,7 +38,7 @@ namespace BackendZapateria.Controllers.T_Usuario
         [HttpGet]
         public IActionResult GetAll()
         {
-            return Ok(_UsuarioBussniess.GetAll());
+            return Ok(_usuarioVBussniess.GetAll());
         }
         [HttpPost]
         public IActionResult Create([FromBody] RequestUsuario entity)
@@ -65,7 +66,7 @@ namespace BackendZapateria.Controllers.T_Usuario
             return Ok(_UsuarioBussniess.Delete(id));
 
         }
-        private string CreateToken(ResponseUsuario responseUsuario)
+        private string CreateToken(VisUsuario responseUsuario)
         {
             IConfigurationBuilder configurationBuild = new ConfigurationBuilder();
             configurationBuild = configurationBuild.AddJsonFile("appsettings.json");

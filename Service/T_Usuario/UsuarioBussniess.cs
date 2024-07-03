@@ -66,6 +66,11 @@ namespace Bussniess.T_Usuario
      
         }
 
+        public List<VisUsuario> GetAllVist()
+        {
+            throw new NotImplementedException();
+        }
+
         public ReponseFilterGeneric<ResponseVUsuario> GetByFilter(RequestFilterGeneric request)
         {
             throw new NotImplementedException();
