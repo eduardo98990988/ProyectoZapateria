@@ -29,6 +29,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Repositori\Repositori.csproj" />
+    <ProjectReference Include="..\RequestRespons\RequestRespons.csproj" />
     <ProjectReference Include="..\Service\Bussniess.csproj" />
     <ProjectReference Include="..\UtilityAutoMapper\UtilityAutoMapper.csproj" />
     <ProjectReference Include="..\UtilitySecuriry\UtilitySecuriry.csproj" />
